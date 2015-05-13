@@ -1,0 +1,5 @@
+2014-5-15
+
+TO RUN SOC with scaling network (different number of CR nodes), 
+
+change the number of CR nodes in test_SOC.cpp file, and ALSO remember to change the value of 'numCR' in cluster.cpp file

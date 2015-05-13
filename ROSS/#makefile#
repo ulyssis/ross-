@@ -1,0 +1,6 @@
+cross.o: clusters.h clusters.cpp test_ross.cpp
+	g++ clusters.h  clusters.cpp test_ross.cpp
+
+clean:
+	rm survival.txt
+
