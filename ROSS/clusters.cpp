@@ -45,13 +45,14 @@ namespace Clustering
 	int Num=0;
 
 	Points PRGroup;
-
+	unsigned int network_geo_edge;
 
 //decide the location of nodes, the number is num_points.
 void randomInit(Points & ps, unsigned int GeoDim, unsigned int NumCR, unsigned int NumPR, unsigned int network_geo_size)
 	{
 //	srand(time(NULL));	//as long as not been excuted all together, this part of program will have new initialization!
 
+    network_geo_edge = network_geo_size;
     		for (unsigned int j = 0; j < NumCR; j++)		//each node node within the possible scope
 		{
 		  Point p(GeoDim);
@@ -1525,13 +1526,24 @@ while(flag_update)
     unsigned int newPU =10;// number of PRs added each time, the total number is decided as nuwPU*(a number)
     unsigned int ChDim =10;
     unsigned int RadiusPR = 20;
-    unsigned int network_geo_size = 100;
+
     std::ofstream myfile;
     myfile.open("survival.cls", std::ios::app);
 
     /*
      * the total number of PUs is controlled here. currently, add PUs for 10 times.
      */
+    unsigned int num_unclustered=0;
+    for(unsigned int i=0; i< Pool_Groups.size(); i++) {
+//		myfile << "Pool_Groups[" << i << "].size()= " << Pool_Groups[i].size() << "\n";
+
+	if(Pool_Groups[i].size()==1)
+	    {
+	    num_unclustered++;
+	    }
+    }
+    myfile << num_unclustered << "\t";
+
     while(PRGroup.size() < oldPU + newPU*30 ){
 
 	//add new PUs in the network, localization
@@ -1541,7 +1553,7 @@ while(flag_update)
 		    for (unsigned int i = 0; i < 2; i++)
 			{
 			//points distributed in the plane of 100m X 100m
-			p[i]=network_geo_size *(rand() * (1.0) / RAND_MAX);
+			p[i]=network_geo_edge *(rand() * (1.0) / RAND_MAX);
 			}
 		    PRGroup.push_back(p);
 
@@ -1568,7 +1580,7 @@ while(flag_update)
 	     */
 
 
-	    unsigned int num_unclustered=0;
+	    num_unclustered=0;
 //	    myfile << "Pool_Groups.size() = " << Pool_Groups.size() << "\n";
 
 	    int checksize = Pool_Groups.size();

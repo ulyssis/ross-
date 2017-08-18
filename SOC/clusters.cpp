@@ -11,7 +11,7 @@
 namespace Clustering
 {
 
-unsigned int numCR = 500;
+unsigned int numCR = 100;
 	Channel_onenode CaculateInit;	//a mediate vector for calculating bi
 
 	PoolofNeighborhoods Pool_Neighbors;		//所走node的group的集合
@@ -64,13 +64,14 @@ unsigned int numCR = 500;
 
     Cluster set_size;
 //    set_size.reserve(100);
-
+unsigned int network_geo_edge;
 
 //decide the location of nodes, the number is num_points.
 void randomInit	(Points & ps, unsigned int GeoDim, unsigned int NumCR, unsigned int NumPR, unsigned int network_geo_size)
 	{
 //	srand(time(NULL));	//as long as not been excuted all together, this part of program will have new initialization!
 //	srand(6);
+	network_geo_edge = network_geo_size;
     		for (unsigned int j = 0; j < NumCR; j++)		//each node node within the possible scope
 		{
 		  Point p(GeoDim);
@@ -872,13 +873,22 @@ void Clusters::ClusteringPhaseIII()
     unsigned int newPU =10;// number of PRs added each time, the total number is decided as nuwPU*(a number)
     unsigned int ChDim =10;
     unsigned int RadiusPR = 20;
-    unsigned int network_geo_size = 100;
 
     std::ofstream survival_file;
-    survival_file.open("survival.txt", 	std::ios::app);
+    survival_file.open("survival.cls", 	std::ios::app);
 
 
 
+    unsigned int num_unclustered=0;
+    for(unsigned int i=0; i< Pool_Groups.size(); i++) {
+//		myfile << "Pool_Groups[" << i << "].size()= " << Pool_Groups[i].size() << "\n";
+
+	if(Pool_Groups[i].size()==1)
+	    {
+	    num_unclustered++;
+	    }
+    }
+    survival_file << num_unclustered << "\t";
     /*
      * the total number of PUs is controlled here. currently, add PUs for 10 times.
      */
@@ -892,7 +902,7 @@ void Clusters::ClusteringPhaseIII()
 		for (unsigned int i = 0; i < 2; i++)
 		    {
 		    //points distributed in the plane of 100m X 100m
-		    p[i]=network_geo_size *(rand() * (1.0) / RAND_MAX);
+		    p[i]=network_geo_edge *(rand() * (1.0) / RAND_MAX);
 		    }
 		PRGroup.push_back(p);
 
@@ -917,7 +927,7 @@ void Clusters::ClusteringPhaseIII()
 	     * remaning clusters under initial PUs and new PUs
 	     * check each cluster in Pool_Groups
 	     */
-	    unsigned int num_unclustered=0;
+	    num_unclustered=0;
 //	    survival << "Pool_Groups.size() = " << Pool_Groups.size() << "\n";
 
 	    for(unsigned int i=0; i< Pool_Groups.size(); i++)
@@ -1112,15 +1122,38 @@ void Clusters::ClusteringPhaseIII()
             std::cout<<"number of clusters in this topology is: "<<number_clusters <<std::endl;
 
 
+//            int totalCR=0;
+            set_size.clear();
+
 	    for(unsigned int i=0;i<Pool_Groups.size();i++)
 			{
 			set_size.push_back(Pool_Groups[i].size());
+//			totalCR+=Pool_Groups[i].size();
+//			std::cout << "xxxxxxxxxxxxxxxxxx Pool_Groups[i].size()" << Pool_Groups[i].size() <<std::endl;
+//			std::cout << set_size.back() <<std::endl;
 			}
-	    //---here to record the distribution of cluster size
+//	    std::cout << "xxxxxxxxxxxxxxxxxx totalCR " <<totalCR  <<std::endl;	    //---here to record the distribution of cluster size
+
+//	    std::cout << "set_size.size() = " << set_size.size() <<std::endl;
+//	    for(unsigned int i =0; i<set_size.size(); i++){
+//	    	std::cout << set_size[i] << std::endl;
+//	    }
+
+	    std::cout <<"-----before updating size_distr ----------" <<std::endl;
+	    for(unsigned int i =0; i<10; i++){
+	    	std::cout << size_distr[i] << std::endl;
+	    }
 	    for(unsigned int j=0; j<set_size.size(); j++)
 			{
-			size_distr[set_size[j]]=size_distr[set_size[j]]+1;
+			size_distr[set_size[j]] +=1;
 			}
+
+
+
+	    std::cout <<"------after updating size_distr ----------" <<std::endl;
+	    for(unsigned int i =0; i<10; i++){
+	    	std::cout << size_distr[i] << std::endl;
+	    }
 
 //	    //replace the above 2 blocs
 //	    for(unsigned int i=0;i<Pool_Groups.size();i++)

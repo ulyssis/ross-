@@ -35,7 +35,7 @@ int main()
 	    srand(seed);
 	    //void randomInit	(Points & ps, unsigned int GeoDim, unsigned int NumCR, unsigned int NumPR)
 //	    Clustering::randomInit(ps, 2, 100, 70);
-	    Clustering::randomInit(ps, 2, 20, 10);
+	    Clustering::randomInit(ps, 2, 100, 30);
 
 	    Clustering::Clusters clusters(ps); //private member _ps is initialized here!
 	    clusters.computeDistance(); //private member _dis is initialized here!

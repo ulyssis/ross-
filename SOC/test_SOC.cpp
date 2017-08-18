@@ -33,20 +33,20 @@ int main()
 	float sum_cv_size=0;
 	float sum_cv_CCC=0;
 	float sum_cv_OCC=0;
-	std::vector<float> distr(200,0);
-	std::vector<float> accum_numCCC(200);
-	std::vector<float> accum_numOCC(200,0);
+	std::vector<float> distr(100,0);
+	std::vector<float> accum_numCCC(100);
+	std::vector<float> accum_numOCC(100,0);
 	std::vector<float> clustersize_cdf;
 	std::vector<float> numCCC_cdf;
 	std::vector<float> numOCC_cdf;
 
 	unsigned int numLoops=50;
-	unsigned int numCR =500;
+	unsigned int numCR =100;
 	for(unsigned int seed=0; seed < numLoops; seed++)
 	    {
 	    srand(seed);
 	    //void randomInit(Points & ps, unsigned int GeoDim, unsigned int NumCR, unsigned int NumPR, unsigned int network_geo_size)
-	    Clustering::randomInit(ps, 2, numCR, 30, 100);
+	    Clustering::randomInit(ps, 2, numCR, 30, 50);
 //	    Clustering::randomInit(ps, 2, numCR, 10, 30);
 
 	    Clustering::Clusters clusters(ps); //private member _ps is initialized here!
@@ -165,6 +165,8 @@ int main()
 				}
 			j--;
 			}
+	    std::cout<< "xxxxxx  distr.size() = "<< distr.size() << "\n";
+
 	    //output the number of nodes grouped into clusters with certain size
 	    std::cout<< "//output the number of nodes grouped into clusters with certain size"<< "\n";
 	    for(unsigned int k=0; k<distr.size(); k++)

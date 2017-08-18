@@ -1,0 +1,5 @@
+Formulate an optimization problem.
+Given an optimal (desired) clusters size, the output will be 
+With an unified cluster size, what is the best clustering solution that the most ICC is achieved?
+
+

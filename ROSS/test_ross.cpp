@@ -49,9 +49,9 @@ int main()
 		float sum_average_ClaimingCluster =0;
 		float sum_average_num_channel_pernode =0;
 		float sum_UpdateRound =0;
-		std::vector<float> distr(100,0);
-		std::vector<float> accum_numCCC(100,0);
-		std::vector<float> accum_numOCC(100,0);
+		std::vector<float> distr(200,0);
+		std::vector<float> accum_numCCC(200,0);
+		std::vector<float> accum_numOCC(200,0);
 		std::vector<float> clustersize_cdf;
 		std::vector<float> numCCC_cdf;
 		std::vector<float> numOCC_cdf;
@@ -68,12 +68,13 @@ int main()
 			//void randomInit	(Points & ps, unsigned int GeoDim, unsigned int NumCR, unsigned int NumPR, unsigned int network_geo_size)
 
 			/*
-			 * remeber to change the function
+			 * when macros 'SURVIVAL_CLUSTERS' or 'SURVIVAL_CLUSTERS_TEST_CENTRALIZED_SCHEME' are used, remeber to set network_geo_size as the same
+			 * with the last parameter in the following function.
 			 * unsigned int network_geo_size = 100;
 			 * in clusters.cpp
 			 */
-//			Clustering::randomInit(ps, 2, numCR, 30, 100);
-			Clustering::randomInit(ps, 2, numCR, 10, 30);
+			Clustering::randomInit(ps, 2, numCR, 30, 50);
+//			Clustering::randomInit(ps, 2, numCR, 10, 30);
 //
 
 			Clustering::Clusters clusters(ps); //private member _ps is initialized here!

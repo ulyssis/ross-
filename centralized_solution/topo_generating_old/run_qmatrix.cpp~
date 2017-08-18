@@ -1,0 +1,166 @@
+/*
+ * 2014.5.20
+ * This program is to generate matrix of possible clusters with uniform specific cluster size
+ * 
+ * modify two varibles in this file:
+ * 1. numCR
+ * 2. clusterSize
+ * and one variable in file qmatrix.cpp
+ * int numCR = ?;
+ * 
+ * */
+
+#include "distance.h"
+#include <iostream>
+#include "qmatrix.h"
+#include<time.h>
+
+int main()
+{
+	clock_t start = clock();
+	using namespace Clustering;
+
+	Clustering::Points ps;
+	Clustering::Channel_allnode v_all;
+
+	float sum_average_CCC=0;
+	float sum_average_OCC=0;
+	float sum_number_clusters=0;
+	float sum_average_size=0;
+	float sum_cv_size=0;
+	float sum_cv_CCC=0;
+	float sum_cv_OCC=0;
+	std::vector<float> distr(50,0);
+	std::vector<float> accum_numCCC(50,0);
+	std::vector<float> accum_numOCC(50,0);
+	std::vector<float> clustersize_cdf;
+	std::vector<float> numCCC_cdf;
+	std::vector<float> numOCC_cdf;
+
+
+	//store data in every run to cacalate the confidence interval
+	std::vector<float> container;
+
+	for(unsigned int size=1; size<5; size++){
+		for(unsigned int seed=0; seed<50; seed++)
+		{
+			unsigned int numCR = size*10;
+			srand(seed);
+
+			Clustering::randomInit(ps, 2, numCR, 50);
+			Clustering::Clusters clusters(ps); //private member _ps is initialized here!
+			clusters.computeDistance(); //private member _dis is initialized here!
+
+			//void channelRandomInit(unsigned int ChDim, double RadiusPR, double RadiusCR);
+			clusters.channelRandomInit(10,20,10);
+			//	    clusters.findNeighbors(10); //bug!!!!!!!!
+			clusters.legitimateClusters(ps, numCR, seed);
+
+			clusters.clearall();
+			//clear ps
+			ps.clear();
+
+		}
+	}
+
+
+	//	CDF of size of clusters
+	for(unsigned int i=0; i<distr.size(); i++)
+	{
+		distr[i]=distr[i]/50;
+	}
+
+	unsigned int j=distr.size();
+	while(!distr[j-1])
+	{
+		if(distr.back()==0.0)
+		{
+			distr.pop_back();
+		}
+		j--;
+	}
+	//output the number of nodes grouped into clusters with certain size
+	for(unsigned int k=0; k<distr.size(); k++)
+	{
+		std::cout<<distr[k]*k<<"\t";
+	}
+	std::cout<<std::endl;
+
+	//output cdf of number of nodes according to clusters size
+	clustersize_cdf.push_back(0);
+	for(unsigned int k=0; k<distr.size(); k++)
+	{
+		float pre_cum=clustersize_cdf.back();
+		clustersize_cdf.push_back(pre_cum+(distr[k+1]*(k+1)));
+		std::cout<<clustersize_cdf[k]<<"\n";
+	}
+	std::cout<<std::endl;
+	//output standard deviation of 50 average_OCC(s)
+	//	    for(unsigned int l=0; l<container.size(); l++)
+	//		{
+	//		std::cout<<container[l]<<",";
+	//		}
+
+	std::cout<<std::endl;
+
+	//	CDF of number of CCC
+	for(unsigned int i=0; i<accum_numCCC.size(); i++)
+	{
+		accum_numCCC[i]=accum_numCCC[i]/50;
+	}
+
+	unsigned int jj=accum_numCCC.size();
+	while(!accum_numCCC[jj-1])
+	{
+		if(accum_numCCC.back()==0.0)
+		{
+			accum_numCCC.pop_back();
+		}
+		jj--;
+	}
+	float firstnum=accum_numCCC[0];
+	numCCC_cdf.push_back(firstnum);
+
+	std::cout<<"there output the series of accumulative numbers: "<<"\n";
+	for(unsigned int k=0; k<accum_numCCC.size(); k++)
+	{
+		float pre_cum=numCCC_cdf.back();
+		numCCC_cdf.push_back(pre_cum+(accum_numCCC[k+1]));
+
+		std::cout<<numCCC_cdf[k]<<"\n";
+	}
+	//	CDF of number of OCC
+	for(unsigned int i=0; i<accum_numOCC.size(); i++)
+	{
+		accum_numOCC[i]=accum_numOCC[i]/50;
+	}
+
+	unsigned int jjj=accum_numOCC.size();
+	while(!accum_numOCC[jjj-1])
+	{
+		if(accum_numOCC.back()==0.0)
+		{
+			accum_numOCC.pop_back();
+		}
+		jjj--;
+	}
+
+	float firstnum2=accum_numOCC[0];
+	numOCC_cdf.push_back(firstnum2);
+
+	std::cout<<"there output the series of accumulative numbers: "<<"\n";
+	for(unsigned int k=0; k<accum_numOCC.size(); k++)
+	{
+		float pre_cum=numOCC_cdf.back();
+		numOCC_cdf.push_back(pre_cum+(accum_numOCC[k+1]));
+
+		std::cout<<numOCC_cdf[k]<<"\n";
+	}
+	//clear containers!
+
+	clock_t stop = clock();
+	std::cout << (stop - start)/CLOCKS_PER_SEC;
+
+}
+
+

@@ -1,0 +1,9 @@
+potential_clusters_20_0.txt_x_m: 15.000000 1.333333
+potential_clusters_20_1.txt_x_m: 15.000000 1.333333
+potential_clusters_20_10.txt_x_m: 17.000000 1.176471
+potential_clusters_20_11.txt_x_m: 18.000000 1.111111
+potential_clusters_20_12.txt_x_m: 18.000000 1.111111
+potential_clusters_20_13.txt_x_m: 13.000000 1.538462
+potential_clusters_20_14.txt_x_m: 14.000000 1.428571
+potential_clusters_20_15.txt_x_m: 17.000000 1.176471
+potential_clusters_20_16.txt_x_m: 14.000000 1.428571
