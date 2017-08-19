@@ -30,8 +30,16 @@
   */
 //#define SURVIVAL_CLUSTERS_TEST_CENTRALIZED_SCHEME
 
-#define SURVIVAL_CLUSTERS
+//#define SURVIVAL_CLUSTERS
 //#define PRINT_OUT_Q_MATRIX
+
+/*
+ * in case there is error in spectrum sensing, CRN runs ROSS with the presence of
+ * the errors. Then it is necessary to double check the whether the 'real' situation
+ * of the formed clusters.
+ */
+//#define _DOUBLE_CHECK_UNACCURATE_SPECTRUM_SENSING
+//#define FALSE_NEGATIVE_SPECTRUM_SENSING 0.1
 
 #define GREEDY
 
@@ -116,6 +124,7 @@ namespace Clustering{
 
 		Channel_allnode channelRandomInit(unsigned int ChDim, double RadiusPR, double RadiusCR);//this function initializes the channels on nodes, and caculate the value of ai and bi on each node.
 		unsigned int survival_check(Cluster cluster, unsigned int RadiusCR, unsigned int ChDim);
+		void cluster_with_accurate_spectrum(Cluster cluster, unsigned int index, float false_positive, unsigned int ChDim);
 		void legitimateClusters(Points & ps, unsigned int numCR, unsigned int seed, Channel_allnode v_all);
 		unsigned int checkUniqueness(Cluster group);
 		unsigned int inOneCluster(Cluster group);

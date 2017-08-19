@@ -285,11 +285,11 @@ inline unsigned int Clusters::CaculateNumCCC(Cluster group)
     unsigned int NumCCC;
     if(group.size()>0)
 	{
-	Channel_onenode ChannelOnHead=v_all_copy[group.back()];//对于需要使用此函数的group，把head node加在最后！
+	Channel_onenode ChannelOnHead=v_all[group.back()];//对于需要使用此函数的group，把head node加在最后！
 	for (unsigned int i = 0; i < group.size()-1; i++)
 	{
 
-	Channel_onenode ChannelOnNeighbor=v_all_copy[group[i]];
+	Channel_onenode ChannelOnNeighbor=v_all[group[i]];
 	for (unsigned int j=0;j<10;j++)
 	  {
 	  ChannelOnHead[j]=ChannelOnHead[j]*ChannelOnNeighbor[j];
@@ -1613,7 +1613,26 @@ while(flag_update)
 
 #endif
 
+    /*
+     * Check the clusters in Pool_Groups, whose sizes are larger than 1.
+     *
+     * check whether the cluster sustains, if not, renew Pool_Groups, if yes, the CCC in the cluster.
+     */
+#ifdef _DOUBLE_CHECK_UNACCURATE_SPECTRUM_SENSING
 
+    for(unsigned int i=0; i< Pool_Groups.size(); i++) {
+
+	if(Pool_Groups[i].size()>1)
+	    {
+	    /*
+	     * check whether the non-singleton cluster remains
+	     */
+	    float false_negative;
+	    false_negative = FALSE_NEGATIVE_SPECTRUM_SENSING;
+	    cluster_with_accurate_spectrum(Pool_Groups[i], i, false_negative, 10);
+	    }
+	}
+#endif
 
 
 //====
@@ -1760,7 +1779,7 @@ while(flag_update)
     /*
      * Average CCC considering only clusters whose sizes are bigger than 1
      */
-    average_CCC = SumNumCCC/set_SumNumCCC_allsize.size();
+    average_CCC = SumNumCCC/set_SumNumCCC.size();
     average_CCC_allsize = SumNumCCC_allsize/set_SumNumCCC_allsize.size();
 
     //std::cout<<"Average number of inner CCC is "<<average_CCC<<"\n";
@@ -1833,6 +1852,35 @@ while(flag_update)
 }//phaseII end
 
 
+/*
+ * When the false negative ratio is 10%, it is 10% that the channel which is deemed as available (primary user is absent)
+ * is actually not available.
+ */
+void Clusters::cluster_with_accurate_spectrum(Cluster cluster_checked, unsigned int index, float false_negative, unsigned int ChDim){
+    unsigned int flag =0;
+    for(unsigned int m=0; m<ChDim; m++)
+	{
+	unsigned int availability_one_channel =1;
+	for(unsigned int i =0; i<cluster_checked.size(); i++)
+	    {
+	    if(v_all[cluster_checked[i]][m]){
+		v_all[cluster_checked[i]][m] = v_all[cluster_checked[i]][m] * (((double) rand() / (RAND_MAX))>false_negative ? 1:0);
+	    }
+	    availability_one_channel *= v_all[cluster_checked[i]][m];
+	    }
+	flag+=availability_one_channel;
+	}
+
+    if(!flag){
+	// dissolve the cluster
+	for(unsigned int i =0; i <cluster_checked.size(); i++){
+	    Cluster singleton_cluster;
+	    singleton_cluster.push_back(cluster_checked[i]);
+	    Pool_Groups.push_back(singleton_cluster);
+	}
+	    Pool_Groups.erase(Pool_Groups.begin()+index);
+    }
+}
 
 void Clusters::survial_ratio_from_centralized(unsigned int seed) {
 	    /*
