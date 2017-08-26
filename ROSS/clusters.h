@@ -42,7 +42,7 @@
 //#define FALSE_NEGATIVE_SPECTRUM_SENSING 0.3
 
 #define COMPARE_SPECTRUM_WITH_GROUND_TRUTH_METHOD2
-#define FALSE_NEGATIVE_RATE_METHOD2
+const float FALSE_NEGATIVE_RATE_METHOD2 = 0.5;
 
 #define GREEDY
 
@@ -136,6 +136,7 @@ namespace Clustering{
 
 		// cacalate the number of common control channel in a group of nodes
 		unsigned int CaculateNumCCC(Cluster group);
+		unsigned int CaculateNumCCC_v_all_copy(Cluster group);
 		double CaculateCV(Cluster Point); //vector of unsigned int
 		double CaculateCV(doubleVector doubleVector); //vector of double
 		void ClusteringPhaseI(unsigned int optimalSize); // preferred/optimal cluster size
