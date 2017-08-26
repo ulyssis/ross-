@@ -7,7 +7,7 @@
 #include "distance.h"
 #include <iostream>
 #include "clusters.h"
-#include<time.h>
+#include <time.h>
 
 int main()
     {
@@ -94,7 +94,7 @@ int main()
 	#endif
 
 	#ifdef CLUSTER_SIZE_CONTROL
-			clusters.ClusteringPhaseI(6);
+			clusters.ClusteringPhaseI(20);
 	#endif
 
 

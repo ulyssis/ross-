@@ -1,6 +1,10 @@
 //#define CLUSTER_SIZE_CONTROL
 //#define PRINT_ON_SCREAN
-#define SURVIVAL_CLUSTERS
+
+//#define _DOUBLE_CHECK_UNACCURATE_SPECTRUM_SENSING
+//#define FALSE_NEGATIVE_SPECTRUM_SENSING 0.1
+
+//#define SURVIVAL_CLUSTERS
 
 #include <vector>
 #include <cmath>
@@ -89,6 +93,8 @@ namespace Clustering{
 
 		void channelRandomInit(unsigned int ChDim, double RadiusPR, double RadiusCR);//this function initializes the channels on nodes, and caculate the value of ai and bi on each node.
 		unsigned int survival_check(Cluster cluster, unsigned int RadiusCR, unsigned int ChDim);
+		void cluster_with_accurate_spectrum(Cluster cluster, unsigned int index, float false_positive, unsigned int ChDim);
+
 
 	//	void GetRobustness();
 

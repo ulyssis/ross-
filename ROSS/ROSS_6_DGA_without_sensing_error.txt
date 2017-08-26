@@ -1,0 +1,5277 @@
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 149
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+3	4	6	15	16	24	5	
+7	8	18	19	9	
+33	34	36	43	44	45	35	
+30	31	41	50	60	40	
+41	43	51	52	53	61	42	
+55	56	62	63	64	65	54	
+39	48	49	58	68	69	59	
+67	78	86	87	88	97	77	
+68	69	78	88	89	79	
+74	82	83	85	93	94	84	
+80	81	82	91	92	90	
+89	98	99	
+1	2	11	13	21	22	12	
+14	15	16	23	24	26	25	
+20	21	22	23	30	33	32	
+36	37	39	47	48	49	38	
+27	36	37	47	48	57	46	
+61	62	71	72	80	81	70	
+82	83	85	93	94	73	
+65	66	74	76	85	94	75	
+1	2	10	11	20	0	
+7	8	17	18	19	28	29	
+86	87	94	96	97	95	
+debatable node 18 belongs to cluster 29
+debatable node 68 belongs to cluster 79
+debatable node 89 belongs to cluster 79
+debatable node 20 belongs to cluster 32
+there are 23group(s)
+Group(5)= 	3	4	6	5	
+Group(9)= 	9	
+Group(35)= 	34	43	44	45	35	
+Group(40)= 	31	50	60	40	
+Group(42)= 	41	51	52	53	42	
+Group(54)= 	55	56	63	64	54	
+Group(59)= 	58	59	
+Group(77)= 	67	77	
+Group(79)= 	68	69	78	88	89	79	
+Group(84)= 	84	
+Group(90)= 	91	92	90	
+Group(99)= 	98	99	
+Group(12)= 	13	21	22	12	
+Group(25)= 	14	15	16	23	24	26	25	
+Group(32)= 	20	30	33	32	
+Group(38)= 	39	49	38	
+Group(46)= 	27	36	37	47	48	57	46	
+Group(70)= 	61	62	71	72	80	81	70	
+Group(73)= 	82	83	93	73	
+Group(75)= 	65	66	74	76	85	94	75	
+Group(0)= 	1	2	10	11	0	
+Group(29)= 	7	8	17	18	19	28	29	
+Group(95)= 	86	87	96	97	95	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+formed clusters after phase II is: 
+10	0	1	2	11	
+3	4	6	5	15	
+9	19	
+13	12	21	22	
+14	26	25	16	24	
+17	28	29	7	8	18	
+32	33	30	23	20	
+34	44	45	35	43	
+38	36	39	48	
+31	50	60	40	41	
+51	52	53	42	61	
+27	57	46	37	47	
+55	56	63	64	54	
+58	59	49	68	69	
+71	72	70	62	81	
+73	83	85	93	
+66	76	75	65	
+67	77	78	86	88	
+79	89	
+84	74	82	94	
+91	92	90	80	
+96	95	87	97	
+98	99	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 0
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 149
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+3	4	6	15	16	24	5	
+7	8	18	19	9	
+33	34	36	43	44	45	35	
+30	31	41	50	60	40	
+41	43	51	52	53	61	42	
+55	56	62	63	64	65	54	
+39	48	49	58	68	69	59	
+67	78	86	87	88	97	77	
+68	69	78	88	89	79	
+74	82	83	85	93	94	84	
+80	81	82	91	92	90	
+89	98	99	
+1	2	11	13	21	22	12	
+14	15	16	23	24	26	25	
+20	21	22	23	30	33	32	
+36	37	39	47	48	49	38	
+27	36	37	47	48	57	46	
+61	62	71	72	80	81	70	
+82	83	85	93	94	73	
+65	66	74	76	85	94	75	
+1	2	10	11	20	0	
+7	8	17	18	19	28	29	
+86	87	94	96	97	95	
+debatable node 18 belongs to cluster 29
+debatable node 89 belongs to cluster 79
+debatable node 20 belongs to cluster 32
+there are 23group(s)
+Group(5)= 	3	4	6	5	
+Group(9)= 	9	
+Group(35)= 	33	34	43	44	45	35	
+Group(40)= 	31	50	60	40	
+Group(42)= 	41	51	52	53	42	
+Group(54)= 	55	56	63	64	54	
+Group(59)= 	39	49	58	59	
+Group(77)= 	67	77	
+Group(79)= 	68	69	78	88	89	79	
+Group(84)= 	84	
+Group(90)= 	91	92	90	
+Group(99)= 	98	99	
+Group(12)= 	13	21	22	12	
+Group(25)= 	14	15	16	23	24	26	25	
+Group(32)= 	20	30	32	
+Group(38)= 	38	
+Group(46)= 	27	36	37	47	48	57	46	
+Group(70)= 	61	62	71	72	80	81	70	
+Group(73)= 	82	83	93	73	
+Group(75)= 	65	66	74	76	85	94	75	
+Group(0)= 	1	2	10	11	0	
+Group(29)= 	7	8	17	18	19	28	29	
+Group(95)= 	86	87	96	97	95	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+formed clusters after phase II is: 
+10	0	1	2	11	
+3	4	6	5	15	
+9	19	
+13	12	21	22	
+14	26	25	16	24	
+17	28	29	7	8	18	
+32	33	30	23	20	
+34	44	45	35	43	
+38	36	39	48	
+31	50	60	40	41	
+51	52	53	42	61	
+27	57	46	37	47	
+55	56	63	64	54	
+58	59	49	68	69	
+71	72	70	62	81	
+73	83	85	93	
+66	76	75	65	
+67	77	78	86	88	
+79	89	
+84	74	82	94	
+91	92	90	80	
+96	95	87	97	
+98	99	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 1
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 145
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+4	5	7	15	16	6	
+7	9	18	19	29	8	
+0	1	11	20	21	10	
+17	26	27	37	46	47	36	
+27	28	29	39	49	58	38	
+46	47	55	56	57	65	45	
+50	51	61	70	60	
+49	59	67	68	78	79	69	
+86	87	95	96	98	97	
+87	88	89	98	99	
+2	4	12	13	14	22	3	
+23	24	26	34	35	44	25	
+30	31	41	50	51	40	
+47	49	56	57	58	59	48	
+41	42	52	63	64	72	62	
+70	71	81	90	91	92	80	
+41	42	44	52	53	54	43	
+71	72	82	83	84	93	73	
+23	24	32	34	35	44	33	
+66	75	76	84	85	86	74	
+84	85	86	93	95	96	94	
+85	86	87	88	96	98	77	
+debatable node 4 belongs to cluster 6
+debatable node 7 belongs to cluster 6
+debatable node 58 belongs to cluster 48
+debatable node 51 belongs to cluster 60
+debatable node 70 belongs to cluster 60
+debatable node 95 belongs to cluster 94
+debatable node 88 belongs to cluster 77
+debatable node 71 belongs to cluster 73
+debatable node 93 belongs to cluster 73
+there are 22group(s)
+Group(6)= 	4	5	7	15	16	6	
+Group(8)= 	9	18	19	8	
+Group(10)= 	0	1	11	20	21	10	
+Group(36)= 	17	37	36	
+Group(38)= 	27	28	29	39	38	
+Group(45)= 	46	47	55	56	57	65	45	
+Group(60)= 	51	61	70	60	
+Group(69)= 	49	59	67	68	78	79	69	
+Group(97)= 	97	
+Group(99)= 	89	99	
+Group(3)= 	2	12	13	14	22	3	
+Group(25)= 	26	25	
+Group(40)= 	30	31	50	40	
+Group(48)= 	58	48	
+Group(62)= 	63	64	62	
+Group(80)= 	81	90	91	92	80	
+Group(43)= 	41	42	52	53	54	43	
+Group(73)= 	71	72	82	83	93	73	
+Group(33)= 	23	24	32	34	35	44	33	
+Group(74)= 	66	75	76	74	
+Group(94)= 	84	95	94	
+Group(77)= 	85	86	87	88	96	98	77	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =22
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =22
+formed clusters after phase II is: 
+2	12	13	14	22	3	
+5	15	16	6	4	7	
+9	18	19	8	
+0	1	11	20	21	10	
+25	26	23	24	
+32	33	34	35	44	
+17	37	36	27	46	
+28	39	38	29	
+30	31	40	
+53	54	43	42	52	
+55	65	45	56	57	
+48	47	49	58	59	
+61	60	50	51	70	
+63	64	62	41	72	
+67	68	78	79	69	
+82	83	73	71	93	
+66	75	76	74	86	
+77	87	98	88	85	
+81	90	91	92	80	
+94	95	84	
+97	96	
+89	99	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 2
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 169
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+7	8	18	19	9	
+3	4	12	13	23	
+30	31	41	50	40	
+49	55	56	57	58	66	47	
+65	73	74	75	84	85	64	
+59	68	78	79	89	69	
+70	80	81	91	90	
+82	83	84	92	94	95	93	
+78	87	88	89	97	98	99	
+0	2	10	11	12	1	
+21	30	31	32	41	42	22	
+34	35	41	42	43	44	33	
+50	61	70	80	81	60	
+76	77	78	79	87	88	67	
+84	85	86	94	95	97	96	
+0	10	11	21	30	31	20	
+34	35	43	44	45	24	
+48	55	56	57	58	66	46	
+52	54	62	63	73	53	
+5	13	15	16	25	26	14	
+27	28	37	39	49	58	38	
+41	42	50	52	61	62	51	
+62	63	71	80	81	82	72	
+5	7	8	15	16	17	6	
+7	18	19	27	28	39	29	
+15	16	25	26	27	37	36	
+debatable node 8 belongs to cluster 6
+debatable node 18 belongs to cluster 29
+debatable node 19 belongs to cluster 29
+debatable node 12 belongs to cluster 23
+debatable node 13 belongs to cluster 23
+debatable node 31 belongs to cluster 22
+debatable node 88 belongs to cluster 67
+debatable node 11 belongs to cluster 20
+debatable node 52 belongs to cluster 53
+debatable node 25 belongs to cluster 14
+there are 26group(s)
+Group(9)= 	9	
+Group(23)= 	3	4	12	13	23	
+Group(40)= 	40	
+Group(47)= 	47	
+Group(64)= 	65	73	74	75	64	
+Group(69)= 	59	68	78	79	89	69	
+Group(90)= 	91	90	
+Group(93)= 	82	83	92	93	
+Group(99)= 	98	99	
+Group(1)= 	0	2	10	1	
+Group(22)= 	21	31	32	41	42	22	
+Group(33)= 	33	
+Group(60)= 	50	61	70	80	81	60	
+Group(67)= 	76	77	87	88	67	
+Group(96)= 	84	85	86	94	95	97	96	
+Group(20)= 	11	30	20	
+Group(24)= 	34	35	43	44	45	24	
+Group(46)= 	48	55	56	57	66	46	
+Group(53)= 	52	54	53	
+Group(14)= 	15	25	26	14	
+Group(38)= 	37	49	58	38	
+Group(51)= 	51	
+Group(72)= 	62	63	71	72	
+Group(6)= 	5	8	16	17	6	
+Group(29)= 	7	18	19	27	28	39	29	
+Group(36)= 	36	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+formed clusters after phase II is: 
+2	1	10	
+17	6	7	8	
+9	
+14	5	15	25	
+20	0	11	
+32	22	30	31	21	
+3	4	23	12	13	
+45	24	35	43	44	
+29	18	19	39	
+33	41	42	34	
+36	16	26	
+38	27	28	37	
+40	
+48	46	57	58	66	
+47	49	55	56	
+51	62	
+54	53	73	52	63	
+60	50	70	61	
+65	74	75	64	85	
+76	77	67	87	88	
+59	68	69	78	79	89	
+71	72	80	81	
+91	90	
+83	92	93	84	82	
+86	96	94	95	
+98	99	97	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 3
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 163
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+7	8	18	19	9	
+3	4	11	12	22	23	13	
+4	5	15	16	24	25	14	
+69	77	78	88	89	98	79	
+80	81	91	90	
+84	85	86	93	94	96	95	
+87	88	89	98	99	
+1	3	4	11	12	2	
+5	7	8	15	16	17	6	
+35	45	54	55	56	44	
+51	60	61	71	80	81	70	
+78	86	87	88	96	98	97	
+1	10	11	20	0	
+32	33	42	52	53	54	43	
+45	47	48	55	56	57	46	
+65	67	76	77	85	86	66	
+63	64	73	74	84	85	75	
+11	12	20	30	31	33	21	
+35	36	37	45	47	26	
+39	48	49	59	68	69	58	
+63	71	72	73	81	82	62	
+81	82	83	84	91	93	92	
+7	28	36	37	38	48	27	
+18	19	38	39	48	49	29	
+30	31	41	50	51	60	40	
+debatable node 8 belongs to cluster 6
+debatable node 77 belongs to cluster 66
+debatable node 86 belongs to cluster 66
+debatable node 96 belongs to cluster 97
+debatable node 87 belongs to cluster 97
+debatable node 1 belongs to cluster 2
+debatable node 33 belongs to cluster 43
+debatable node 31 belongs to cluster 21
+there are 25group(s)
+Group(9)= 	9	
+Group(13)= 	22	23	13	
+Group(14)= 	24	25	14	
+Group(79)= 	69	89	79	
+Group(90)= 	91	90	
+Group(95)= 	84	93	94	95	
+Group(99)= 	99	
+Group(2)= 	1	3	4	11	12	2	
+Group(6)= 	5	8	15	16	17	6	
+Group(44)= 	54	44	
+Group(70)= 	51	60	61	71	80	81	70	
+Group(97)= 	78	87	88	96	98	97	
+Group(0)= 	10	20	0	
+Group(43)= 	32	33	42	52	53	43	
+Group(46)= 	55	56	57	46	
+Group(66)= 	65	67	76	77	85	86	66	
+Group(75)= 	63	64	73	74	75	
+Group(21)= 	30	31	21	
+Group(26)= 	35	45	47	26	
+Group(58)= 	59	68	58	
+Group(62)= 	72	62	
+Group(92)= 	82	83	92	
+Group(27)= 	7	28	36	37	27	
+Group(29)= 	18	19	38	39	48	49	29	
+Group(40)= 	41	50	40	
+There are 99 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+formed clusters after phase II is: 
+10	0	20	
+2	11	12	1	
+17	6	8	15	16	
+9	18	19	
+22	23	13	3	
+24	25	14	4	5	
+21	30	31	
+26	45	47	36	
+28	27	7	37	38	
+29	39	49	
+41	50	40	51	
+32	42	52	53	43	33	
+44	35	54	
+57	46	55	56	
+59	68	58	48	
+72	62	81	63	
+65	67	76	66	77	86	
+61	70	60	71	
+64	74	75	85	73	
+79	69	78	89	
+90	80	91	
+83	92	82	
+94	95	84	93	
+97	88	98	96	87	
+99	
+Now, after clarification, the number of all nodes involved is 99
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 4
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 150
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	0	
+8	18	19	9	
+18	19	28	37	38	39	29	
+68	69	78	89	79	
+82	83	90	91	93	92	
+84	85	93	95	96	94	
+3	5	6	15	16	4	
+3	12	23	13	
+26	27	36	44	45	46	35	
+44	45	46	52	53	55	54	
+52	53	62	71	72	73	63	
+87	88	89	97	98	99	
+1	3	10	11	12	2	
+6	8	16	17	18	26	7	
+17	26	27	36	45	25	
+31	32	41	42	52	53	43	
+58	66	67	68	76	77	56	
+30	31	32	41	42	22	
+40	41	42	51	60	61	50	
+37	46	47	48	49	58	57	
+75	83	84	85	86	95	74	
+10	11	12	20	30	31	21	
+48	49	58	67	68	69	59	
+60	61	80	81	90	91	70	
+debatable node 18 belongs to cluster 7
+debatable node 19 belongs to cluster 29
+debatable node 83 belongs to cluster 74
+debatable node 91 belongs to cluster 92
+there are 24group(s)
+Group(0)= 	1	10	11	0	
+Group(9)= 	9	
+Group(29)= 	19	28	38	39	29	
+Group(79)= 	78	89	79	
+Group(92)= 	82	91	92	
+Group(94)= 	84	85	93	95	96	94	
+Group(4)= 	3	5	15	4	
+Group(13)= 	23	13	
+Group(35)= 	26	27	36	44	45	35	
+Group(54)= 	55	54	
+Group(63)= 	62	71	72	73	63	
+Group(99)= 	87	88	97	98	99	
+Group(2)= 	2	
+Group(7)= 	6	8	16	17	18	7	
+Group(25)= 	25	
+Group(43)= 	31	32	41	42	52	53	43	
+Group(56)= 	66	76	77	56	
+Group(22)= 	22	
+Group(50)= 	40	51	50	
+Group(57)= 	37	46	47	57	
+Group(74)= 	75	83	86	74	
+Group(21)= 	12	20	30	21	
+Group(59)= 	48	49	58	67	68	69	59	
+Group(70)= 	60	61	80	81	90	70	
+There are 94 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+0	1	10	11	
+2	
+5	15	4	6	
+7	8	18	16	
+9	
+23	13	3	
+20	21	12	30	
+22	31	32	
+25	26	27	17	
+28	38	39	29	19	
+35	36	44	45	
+43	52	41	42	
+40	51	50	60	61	
+55	54	46	53	
+66	76	77	56	67	
+47	57	37	58	48	
+59	49	
+62	71	72	73	63	
+80	81	70	90	
+75	86	74	83	84	85	
+78	79	68	69	89	
+82	92	91	93	
+96	94	95	
+87	88	97	98	99	
+Now, after clarification, the number of all nodes involved is 94
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 5
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 147
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	2	10	11	12	0	
+3	5	6	14	15	4	
+5	6	8	16	17	18	7	
+8	17	18	19	29	9	
+30	31	41	50	51	40	
+33	41	43	44	52	53	42	
+51	61	62	70	71	80	60	
+75	83	85	93	94	95	84	
+80	81	91	90	
+81	82	83	91	93	92	
+79	88	89	98	99	
+1	10	11	12	21	31	20	
+12	13	22	23	31	44	32	
+58	66	67	68	77	57	
+72	74	81	82	83	73	
+85	86	87	94	95	97	96	
+49	58	59	67	68	69	47	
+54	63	64	74	75	76	65	
+24	34	35	54	64	45	
+38	39	49	58	59	48	
+69	77	79	88	89	98	78	
+17	26	27	28	36	38	37	
+14	15	23	24	34	35	25	
+debatable node 15 belongs to cluster 25
+debatable node 51 belongs to cluster 60
+debatable node 44 belongs to cluster 42
+debatable node 94 belongs to cluster 84
+debatable node 91 belongs to cluster 92
+debatable node 64 belongs to cluster 65
+debatable node 35 belongs to cluster 45
+debatable node 38 belongs to cluster 48
+there are 23group(s)
+Group(0)= 	1	2	10	11	12	0	
+Group(4)= 	3	5	6	4	
+Group(7)= 	16	17	7	
+Group(9)= 	8	18	19	29	9	
+Group(40)= 	30	31	50	40	
+Group(42)= 	33	41	43	44	52	53	42	
+Group(60)= 	51	61	62	70	71	80	60	
+Group(84)= 	85	94	95	84	
+Group(90)= 	90	
+Group(92)= 	91	93	92	
+Group(99)= 	79	88	89	98	99	
+Group(20)= 	21	20	
+Group(32)= 	13	22	32	
+Group(57)= 	66	77	57	
+Group(73)= 	72	81	82	83	73	
+Group(96)= 	86	87	97	96	
+Group(47)= 	67	68	69	47	
+Group(65)= 	63	64	74	75	76	65	
+Group(45)= 	24	34	35	54	45	
+Group(48)= 	38	39	49	58	59	48	
+Group(78)= 	78	
+Group(37)= 	26	27	28	36	37	
+Group(25)= 	14	15	23	25	
+There are 97 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+formed clusters after phase II is: 
+2	0	1	12	
+3	4	5	6	
+16	7	8	17	
+19	29	9	18	
+21	20	10	11	
+25	14	15	23	
+13	22	32	31	
+26	27	28	36	37	
+30	50	40	41	
+33	43	52	53	42	44	
+45	54	24	34	35	
+47	67	68	69	
+39	48	49	59	38	
+66	57	58	77	
+61	62	70	71	60	51	80	
+63	76	65	74	64	
+72	73	81	82	
+78	79	88	
+84	75	85	94	95	
+90	
+92	83	93	91	
+86	87	97	96	
+99	89	98	
+Now, after clarification, the number of all nodes involved is 97
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 6
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 152
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+7	9	17	18	8	
+0	1	11	20	30	10	
+23	31	33	41	42	43	32	
+23	24	25	34	35	
+39	48	58	59	69	49	
+40	41	51	60	50	
+71	80	90	70	
+81	82	83	91	93	94	92	
+84	85	86	94	96	97	95	
+9	17	18	28	29	39	19	
+20	22	30	31	40	41	21	
+36	46	54	55	45	
+53	60	61	62	63	72	52	
+26	27	28	29	36	38	37	
+33	34	42	43	53	64	44	
+53	54	64	74	75	77	65	
+75	76	77	85	86	87	66	
+6	7	15	17	36	16	
+58	59	68	69	77	78	57	
+72	74	82	83	84	93	73	
+4	6	13	14	15	5	
+69	78	87	88	89	99	79	
+1	2	4	12	13	14	3	
+87	88	89	97	99	98	
+debatable node 17 belongs to cluster 16
+debatable node 18 belongs to cluster 19
+debatable node 6 belongs to cluster 16
+debatable node 14 belongs to cluster 3
+debatable node 89 belongs to cluster 79
+debatable node 99 belongs to cluster 79
+there are 24group(s)
+Group(8)= 	8	
+Group(10)= 	0	11	10	
+Group(32)= 	32	
+Group(35)= 	23	24	25	35	
+Group(49)= 	39	48	49	
+Group(50)= 	40	41	51	50	
+Group(70)= 	71	80	90	70	
+Group(92)= 	81	91	92	
+Group(95)= 	94	96	97	95	
+Group(19)= 	9	18	28	29	19	
+Group(21)= 	20	22	30	31	21	
+Group(45)= 	36	46	55	45	
+Group(52)= 	60	61	62	63	72	52	
+Group(37)= 	26	27	38	37	
+Group(44)= 	33	34	42	43	44	
+Group(65)= 	53	54	64	74	65	
+Group(66)= 	75	76	85	86	87	66	
+Group(16)= 	6	7	17	16	
+Group(57)= 	58	59	68	69	77	78	57	
+Group(73)= 	82	83	84	93	73	
+Group(5)= 	15	5	
+Group(79)= 	88	89	99	79	
+Group(3)= 	1	2	4	12	13	14	3	
+Group(98)= 	98	
+There are 97 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+2	12	3	4	13	14	
+5	15	
+8	
+0	11	10	1	
+16	7	17	6	
+19	9	18	28	29	
+22	21	20	30	
+32	23	31	33	
+24	25	35	
+26	27	38	37	
+44	42	43	34	
+46	55	45	36	
+48	49	39	58	59	
+51	50	41	40	60	
+61	62	63	52	72	
+68	57	69	77	78	
+65	54	53	64	74	
+76	66	85	86	75	
+71	80	90	70	
+73	83	93	84	
+79	87	88	89	99	
+81	91	92	82	94	
+96	95	97	
+98	
+Now, after clarification, the number of all nodes involved is 97
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 7
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 163
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	2	10	11	12	20	0	
+6	8	17	18	26	27	7	
+8	18	19	9	
+20	21	31	32	40	41	30	
+38	39	48	58	59	69	49	
+40	41	52	60	61	62	50	
+80	81	82	90	91	93	92	
+74	83	84	93	95	96	94	
+78	88	89	97	98	99	
+18	19	27	28	38	39	29	
+32	33	41	42	52	53	43	
+34	35	36	45	46	55	44	
+59	68	69	78	88	89	79	
+4	13	14	15	25	35	24	
+36	37	38	39	48	58	47	
+41	52	60	61	62	51	
+53	62	64	72	73	74	63	
+3	11	12	21	22	33	23	
+66	74	75	76	77	85	65	
+70	80	81	82	90	91	71	
+6	13	14	15	16	25	5	
+58	66	67	75	76	77	56	
+85	87	95	96	97	98	86	
+66	67	68	75	76	77	57	
+debatable node 32 belongs to cluster 43
+debatable node 69 belongs to cluster 79
+debatable node 53 belongs to cluster 43
+debatable node 68 belongs to cluster 57
+debatable node 13 belongs to cluster 24
+debatable node 85 belongs to cluster 65
+there are 24group(s)
+Group(0)= 	1	2	10	12	20	0	
+Group(7)= 	17	26	7	
+Group(9)= 	8	9	
+Group(30)= 	31	30	
+Group(49)= 	59	49	
+Group(50)= 	40	50	
+Group(92)= 	92	
+Group(94)= 	74	83	84	93	95	96	94	
+Group(99)= 	78	88	89	97	98	99	
+Group(29)= 	18	19	27	28	29	
+Group(43)= 	32	33	42	53	43	
+Group(44)= 	34	35	45	46	55	44	
+Group(79)= 	69	79	
+Group(24)= 	4	13	14	15	25	24	
+Group(47)= 	36	37	38	39	48	47	
+Group(51)= 	41	52	60	61	51	
+Group(63)= 	62	64	72	73	63	
+Group(23)= 	3	11	21	22	23	
+Group(65)= 	85	65	
+Group(71)= 	70	80	81	82	90	91	71	
+Group(5)= 	6	16	5	
+Group(56)= 	58	56	
+Group(86)= 	87	86	
+Group(57)= 	66	67	68	75	76	77	57	
+There are 99 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+1	2	10	0	12	
+16	5	6	14	
+17	26	7	8	
+9	
+3	22	23	11	21	
+4	24	13	15	25	
+28	29	18	27	19	
+31	30	20	
+42	43	32	33	53	
+34	45	46	55	44	35	
+37	47	38	39	48	36	
+49	59	
+50	40	41	
+51	52	60	61	
+56	58	66	75	
+57	68	77	67	
+64	72	73	63	62	
+65	74	76	85	
+70	71	90	91	
+79	69	89	
+87	86	95	96	
+92	80	81	82	
+83	84	94	93	
+99	78	88	97	98	
+Now, after clarification, the number of all nodes involved is 99
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 8
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 168
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	2	10	11	0	
+2	4	12	13	14	24	3	
+4	6	7	15	16	5	
+8	19	9	
+19	28	38	39	48	49	29	
+40	41	51	60	61	50	
+48	49	57	58	68	69	59	
+60	71	80	81	90	70	
+83	84	85	93	95	96	94	
+88	89	98	99	
+20	30	32	40	41	42	31	
+35	44	46	47	54	55	45	
+52	53	54	61	62	73	63	
+69	77	78	88	89	98	79	
+15	16	25	26	46	47	36	
+61	62	71	80	81	91	72	
+66	75	76	83	84	85	74	
+83	84	91	92	93	82	
+26	28	37	38	47	48	27	
+23	24	32	33	44	54	34	
+67	75	76	85	86	65	
+86	87	88	95	96	98	97	
+7	8	15	16	18	19	17	
+20	22	23	30	32	33	21	
+44	51	52	53	54	61	43	
+47	48	57	66	67	76	56	
+debatable node 2 belongs to cluster 3
+debatable node 49 belongs to cluster 59
+there are 26group(s)
+Group(0)= 	1	10	11	0	
+Group(3)= 	2	4	12	13	14	24	3	
+Group(5)= 	6	5	
+Group(9)= 	8	9	
+Group(29)= 	19	39	29	
+Group(50)= 	50	
+Group(59)= 	49	58	68	69	59	
+Group(70)= 	60	71	80	81	90	70	
+Group(94)= 	83	84	85	93	94	
+Group(99)= 	89	99	
+Group(31)= 	20	30	40	41	42	31	
+Group(45)= 	35	55	45	
+Group(63)= 	62	73	63	
+Group(79)= 	77	78	79	
+Group(36)= 	15	16	25	46	36	
+Group(72)= 	72	
+Group(74)= 	75	74	
+Group(82)= 	91	92	82	
+Group(27)= 	26	28	37	38	27	
+Group(34)= 	34	
+Group(65)= 	65	
+Group(97)= 	86	87	88	95	96	98	97	
+Group(17)= 	7	18	17	
+Group(21)= 	22	23	32	33	21	
+Group(43)= 	44	51	52	53	54	61	43	
+Group(56)= 	47	48	57	66	67	76	56	
+There are 99 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+formed clusters after phase II is: 
+1	10	11	0	
+12	13	14	3	2	4	
+6	5	
+9	8	
+18	17	7	15	
+22	21	23	33	
+37	27	28	38	48	
+39	29	19	
+42	31	20	30	
+34	24	32	44	
+25	36	16	26	
+43	54	52	53	
+35	55	45	46	47	
+50	40	41	51	60	
+56	57	76	67	
+58	68	59	49	
+73	63	62	
+65	85	75	86	
+90	70	80	81	
+72	61	71	
+74	83	66	
+77	78	79	69	
+92	82	91	
+94	84	93	
+87	97	95	96	
+99	88	89	98	
+Now, after clarification, the number of all nodes involved is 99
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 9
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 157
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	2	10	11	12	0	
+3	5	13	14	4	
+8	17	18	19	9	
+23	25	26	33	34	35	24	
+19	28	38	39	49	29	
+11	20	31	40	41	42	30	
+40	41	51	60	61	70	50	
+45	46	47	55	57	66	56	
+76	78	86	87	88	97	77	
+80	91	92	90	
+75	83	84	85	94	96	95	
+89	98	99	
+5	6	7	16	25	35	15	
+38	45	46	47	55	36	
+38	45	46	47	37	
+45	46	52	53	54	55	44	
+48	49	58	68	69	79	59	
+73	81	91	92	93	94	82	
+26	28	35	38	27	
+31	32	42	52	53	54	43	
+61	63	71	72	73	81	62	
+66	74	75	76	84	85	65	
+78	79	86	87	88	89	67	
+2	10	11	12	20	21	22	
+74	75	76	83	84	85	64	
+debatable node 5 belongs to cluster 4
+debatable node 49 belongs to cluster 29
+debatable node 42 belongs to cluster 43
+debatable node 89 belongs to cluster 67
+there are 25group(s)
+Group(0)= 	1	2	10	11	12	0	
+Group(4)= 	3	5	13	14	4	
+Group(9)= 	8	17	18	9	
+Group(24)= 	23	33	34	24	
+Group(29)= 	19	39	49	29	
+Group(30)= 	30	
+Group(50)= 	40	41	51	60	70	50	
+Group(56)= 	57	66	56	
+Group(77)= 	97	77	
+Group(90)= 	80	91	92	90	
+Group(95)= 	94	96	95	
+Group(99)= 	98	99	
+Group(15)= 	6	7	16	25	15	
+Group(36)= 	36	
+Group(37)= 	47	37	
+Group(44)= 	45	46	55	44	
+Group(59)= 	48	58	68	69	59	
+Group(82)= 	93	82	
+Group(27)= 	26	28	35	38	27	
+Group(43)= 	31	32	42	52	53	54	43	
+Group(62)= 	61	63	71	72	73	81	62	
+Group(65)= 	65	
+Group(67)= 	78	79	86	87	88	89	67	
+Group(22)= 	20	21	22	
+Group(64)= 	74	75	76	83	84	85	64	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+formed clusters after phase II is: 
+1	0	
+3	13	14	4	5	
+8	17	18	9	
+6	7	16	15	25	
+21	22	2	10	12	
+23	33	34	24	
+27	26	35	28	
+39	29	19	49	
+30	11	20	
+36	38	46	
+37	45	47	
+32	43	31	42	
+44	52	53	54	
+51	60	70	50	40	41	
+57	56	55	
+48	58	68	69	59	
+63	71	72	62	61	81	
+64	83	84	85	74	
+65	66	76	75	
+67	87	88	89	79	
+97	77	78	86	
+93	82	91	92	73	
+80	90	
+96	95	94	
+98	99	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 10
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 157
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	2	10	11	20	0	
+1	2	4	12	13	14	3	
+4	6	14	15	16	5	
+6	8	16	17	18	7	
+8	18	19	28	29	9	
+24	31	32	34	42	43	33	
+27	37	38	47	48	56	36	
+29	38	48	49	59	39	
+50	51	61	62	70	71	60	
+58	59	68	77	78	79	69	
+54	55	64	65	83	84	74	
+81	83	91	92	93	94	82	
+71	80	81	91	92	90	
+79	88	89	98	99	
+12	13	14	24	34	43	23	
+16	17	25	27	37	26	
+21	31	40	41	50	51	30	
+44	52	53	54	62	73	63	
+56	57	58	68	76	77	67	
+31	32	42	43	22	
+35	44	46	55	65	66	45	
+62	70	71	81	91	92	72	
+84	85	86	94	95	96	75	
+86	87	88	95	96	98	97	
+debatable node 8 belongs to cluster 7
+debatable node 37 belongs to cluster 36
+debatable node 79 belongs to cluster 69
+there are 24group(s)
+Group(0)= 	2	10	11	20	0	
+Group(3)= 	1	4	12	13	14	3	
+Group(5)= 	15	5	
+Group(7)= 	6	8	18	7	
+Group(9)= 	19	28	9	
+Group(33)= 	24	31	32	34	42	43	33	
+Group(36)= 	37	47	56	36	
+Group(39)= 	29	38	48	49	59	39	
+Group(60)= 	50	51	61	70	71	60	
+Group(69)= 	58	68	77	78	79	69	
+Group(74)= 	64	83	84	74	
+Group(82)= 	93	94	82	
+Group(90)= 	80	81	91	92	90	
+Group(99)= 	88	89	98	99	
+Group(23)= 	23	
+Group(26)= 	16	17	25	27	26	
+Group(30)= 	21	40	41	30	
+Group(63)= 	52	53	54	62	73	63	
+Group(67)= 	57	76	67	
+Group(22)= 	22	
+Group(45)= 	35	44	46	55	65	66	45	
+Group(72)= 	72	
+Group(75)= 	85	86	95	96	75	
+Group(97)= 	87	97	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+10	11	20	0	
+3	1	2	14	
+15	5	4	16	
+7	6	8	18	
+19	28	9	29	
+22	31	32	
+23	12	13	24	
+25	26	17	27	
+21	40	41	30	50	
+33	34	42	43	
+47	36	37	56	
+49	39	38	48	59	
+35	46	66	45	44	
+61	60	51	71	
+52	53	73	63	
+57	76	67	58	
+78	69	68	77	79	
+72	62	70	81	
+64	74	54	55	65	
+85	75	84	95	96	
+93	82	83	94	
+80	90	91	92	
+87	97	88	86	
+89	99	98	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 11
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 151
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+5	11	12	13	14	23	3	
+8	18	19	29	9	
+20	31	32	40	41	50	30	
+24	25	33	35	43	44	34	
+29	38	39	48	58	59	49	
+67	68	75	76	77	86	66	
+80	91	90	
+82	83	84	91	92	94	93	
+76	85	86	87	95	97	96	
+88	89	97	98	99	
+0	2	11	12	21	1	
+5	6	13	14	15	25	4	
+21	23	31	32	33	22	
+37	44	45	46	47	57	36	
+41	43	51	52	53	54	42	
+50	51	52	61	70	71	60	
+58	59	68	78	79	89	69	
+0	2	11	20	21	31	10	
+7	8	25	26	27	28	16	
+45	54	55	65	67	75	56	
+70	71	73	80	82	91	81	
+7	8	18	19	28	37	17	
+62	63	72	73	74	84	64	
+debatable node 12 belongs to cluster 3
+debatable node 13 belongs to cluster 3
+debatable node 32 belongs to cluster 22
+debatable node 41 belongs to cluster 30
+debatable node 58 belongs to cluster 49
+debatable node 67 belongs to cluster 66
+debatable node 89 belongs to cluster 69
+debatable node 21 belongs to cluster 22
+debatable node 37 belongs to cluster 36
+debatable node 54 belongs to cluster 56
+there are 23group(s)
+Group(3)= 	12	13	3	
+Group(9)= 	8	18	19	9	
+Group(30)= 	40	41	30	
+Group(34)= 	24	25	33	35	43	34	
+Group(49)= 	29	38	39	48	58	59	49	
+Group(66)= 	67	76	77	86	66	
+Group(90)= 	90	
+Group(93)= 	83	92	94	93	
+Group(96)= 	85	87	95	96	
+Group(99)= 	88	97	98	99	
+Group(1)= 	0	2	11	1	
+Group(4)= 	5	6	14	15	4	
+Group(22)= 	21	23	32	22	
+Group(36)= 	37	44	46	47	57	36	
+Group(42)= 	53	42	
+Group(60)= 	50	51	52	61	60	
+Group(69)= 	68	78	79	89	69	
+Group(10)= 	20	31	10	
+Group(16)= 	26	27	16	
+Group(56)= 	45	54	55	65	75	56	
+Group(81)= 	70	71	80	82	91	81	
+Group(17)= 	7	28	17	
+Group(64)= 	62	63	72	73	74	84	64	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+formed clusters after phase II is: 
+1	11	0	2	
+3	5	12	13	
+6	15	4	14	
+9	18	19	29	
+10	20	
+26	27	16	25	
+17	8	7	28	
+22	23	32	21	
+40	30	31	41	
+24	35	34	33	43	
+46	47	57	36	44	37	
+53	42	51	
+38	39	48	49	58	59	
+55	65	56	75	45	54	
+61	60	50	52	
+62	63	72	74	64	
+77	66	67	76	86	
+78	79	69	68	89	
+81	82	70	71	73	
+90	80	91	
+83	92	94	93	84	
+85	87	95	96	
+88	98	99	97	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 12
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 154
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+2	4	5	13	14	3	
+44	45	46	47	55	56	35	
+29	38	48	49	58	59	39	
+30	41	50	51	61	40	
+43	51	53	54	61	62	52	
+50	61	70	71	80	60	
+58	59	68	78	79	89	69	
+74	81	82	83	84	93	72	
+84	85	86	93	95	96	94	
+79	88	89	98	99	
+4	5	7	15	16	17	6	
+7	9	18	19	28	29	8	
+37	44	45	46	47	56	36	
+43	44	51	53	54	42	
+65	73	74	75	84	63	
+80	81	82	90	91	93	92	
+77	86	87	88	96	98	97	
+16	17	24	25	27	37	26	
+32	33	43	44	45	54	34	
+66	73	74	75	76	84	64	
+12	20	21	22	23	32	31	
+58	59	66	67	68	78	57	
+1	2	10	11	12	21	0	
+debatable node 78 belongs to cluster 57
+debatable node 88 belongs to cluster 97
+debatable node 98 belongs to cluster 97
+debatable node 66 belongs to cluster 64
+debatable node 21 belongs to cluster 31
+there are 23group(s)
+Group(3)= 	4	5	13	14	3	
+Group(35)= 	46	47	55	56	35	
+Group(39)= 	29	38	48	49	58	59	39	
+Group(40)= 	30	41	61	40	
+Group(52)= 	62	52	
+Group(60)= 	50	70	71	80	60	
+Group(69)= 	79	89	69	
+Group(72)= 	83	72	
+Group(94)= 	84	85	93	95	94	
+Group(99)= 	99	
+Group(6)= 	7	15	6	
+Group(8)= 	9	18	19	28	8	
+Group(36)= 	36	
+Group(42)= 	51	53	54	42	
+Group(63)= 	65	63	
+Group(92)= 	81	82	90	91	92	
+Group(97)= 	77	86	87	88	96	98	97	
+Group(26)= 	16	17	24	25	27	37	26	
+Group(34)= 	33	43	44	45	34	
+Group(64)= 	66	73	74	75	76	64	
+Group(31)= 	12	20	21	22	23	32	31	
+Group(57)= 	67	68	78	57	
+Group(0)= 	1	2	10	11	0	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+formed clusters after phase II is: 
+1	10	11	0	2	
+13	14	3	5	
+15	6	4	7	16	
+9	18	19	28	8	29	
+24	25	27	26	17	
+20	22	23	31	12	21	
+33	34	43	32	
+55	35	47	56	
+36	45	46	37	
+38	48	49	39	58	59	
+30	41	40	61	
+42	44	53	54	
+62	52	51	
+67	57	68	78	
+70	71	60	50	
+65	63	74	84	
+76	64	73	75	66	
+69	79	
+83	72	81	82	93	
+90	91	92	80	
+85	95	94	86	96	
+77	87	97	88	98	
+99	89	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 13
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 138
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	20	0	
+2	4	12	13	3	
+7	8	18	19	9	
+60	61	71	80	70	
+80	81	91	90	
+88	89	97	98	99	
+6	7	14	15	16	17	5	
+18	19	26	27	29	39	28	
+30	40	41	51	52	60	50	
+44	45	46	54	56	64	55	
+45	46	47	48	56	58	57	
+75	84	94	95	85	
+23	24	25	33	35	44	34	
+33	51	52	53	62	63	43	
+38	39	47	48	58	59	49	
+54	64	73	75	83	84	74	
+77	87	95	96	97	86	
+81	82	83	91	92	94	93	
+32	33	40	41	51	52	42	
+59	68	69	77	78	79	67	
+80	81	82	83	91	92	72	
+12	20	21	31	32	33	22	
+debatable node 19 belongs to cluster 28
+debatable node 97 belongs to cluster 86
+debatable node 84 belongs to cluster 85
+debatable node 94 belongs to cluster 85
+debatable node 82 belongs to cluster 72
+there are 22group(s)
+Group(0)= 	1	10	11	0	
+Group(3)= 	2	4	13	3	
+Group(9)= 	8	18	9	
+Group(70)= 	61	71	70	
+Group(90)= 	80	81	91	90	
+Group(99)= 	88	89	98	99	
+Group(5)= 	6	7	14	15	16	17	5	
+Group(28)= 	19	26	27	29	39	28	
+Group(50)= 	30	60	50	
+Group(55)= 	55	
+Group(57)= 	45	46	47	48	56	58	57	
+Group(85)= 	75	84	94	95	85	
+Group(34)= 	23	24	25	35	44	34	
+Group(43)= 	53	62	63	43	
+Group(49)= 	38	49	
+Group(74)= 	54	64	73	83	74	
+Group(86)= 	87	96	97	86	
+Group(93)= 	93	
+Group(42)= 	32	33	40	41	51	52	42	
+Group(67)= 	59	68	69	77	78	79	67	
+Group(72)= 	82	92	72	
+Group(22)= 	12	20	21	31	22	
+There are 95 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =22
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =22
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =22
+formed clusters after phase II is: 
+1	10	11	0	
+2	4	13	3	
+6	14	15	16	17	5	
+8	9	7	18	
+21	31	22	20	12	
+26	27	29	28	19	
+23	24	25	35	34	
+42	51	52	33	32	
+53	62	63	43	
+38	49	39	47	59	
+30	50	40	41	
+55	44	45	46	
+57	56	48	58	
+68	69	78	79	67	
+61	71	70	60	
+72	80	83	82	
+73	74	54	64	
+85	75	84	94	95	
+87	96	86	97	77	
+90	
+93	81	91	92	
+88	89	98	99	
+Now, after clarification, the number of all nodes involved is 95
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 14
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 156
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	12	20	0	
+5	6	8	16	17	26	7	
+8	18	19	28	9	
+18	28	29	38	48	49	39	
+30	31	41	50	51	40	
+35	42	43	45	53	54	44	
+57	65	67	68	76	77	66	
+58	59	69	78	88	89	79	
+73	82	84	91	92	93	83	
+75	84	85	86	95	96	94	
+78	87	88	89	98	99	
+2	3	5	13	14	15	4	
+14	15	16	24	34	35	25	
+31	33	41	42	43	52	32	
+61	64	71	73	82	72	
+86	87	88	95	96	98	97	
+1	10	11	12	20	30	21	
+2	11	12	22	33	34	23	
+52	53	63	74	82	62	
+60	61	71	80	81	90	70	
+54	56	64	65	74	55	
+56	57	65	67	46	
+37	38	48	49	57	58	47	
+17	26	27	37	38	36	
+debatable node 16 belongs to cluster 25
+debatable node 26 belongs to cluster 7
+debatable node 28 belongs to cluster 39
+debatable node 48 belongs to cluster 47
+debatable node 41 belongs to cluster 32
+debatable node 78 belongs to cluster 79
+debatable node 98 belongs to cluster 97
+debatable node 61 belongs to cluster 72
+there are 24group(s)
+Group(0)= 	10	12	20	0	
+Group(7)= 	6	17	26	7	
+Group(9)= 	8	19	9	
+Group(39)= 	18	28	29	39	
+Group(40)= 	50	51	40	
+Group(44)= 	35	42	43	45	54	44	
+Group(66)= 	68	76	77	66	
+Group(79)= 	59	69	78	79	
+Group(83)= 	91	92	93	83	
+Group(94)= 	75	84	85	94	
+Group(99)= 	89	99	
+Group(4)= 	3	5	13	14	15	4	
+Group(25)= 	16	24	25	
+Group(32)= 	31	41	32	
+Group(72)= 	61	64	71	73	72	
+Group(97)= 	86	87	88	95	96	98	97	
+Group(21)= 	1	30	21	
+Group(23)= 	2	11	22	33	34	23	
+Group(62)= 	52	53	63	74	82	62	
+Group(70)= 	60	80	81	90	70	
+Group(55)= 	55	
+Group(46)= 	56	65	67	46	
+Group(47)= 	37	38	48	49	57	58	47	
+Group(36)= 	27	36	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+0	10	12	20	
+3	13	4	5	
+6	7	17	26	
+19	9	8	
+21	1	30	11	
+22	23	2	
+24	25	16	14	15	34	
+32	31	41	42	33	
+27	36	38	37	
+29	39	18	28	49	
+50	51	40	
+45	44	35	43	
+46	65	67	56	
+47	48	57	58	
+55	54	64	74	
+63	62	53	52	
+68	76	77	66	
+60	80	81	90	70	
+72	82	61	71	
+59	69	79	78	88	89	
+91	92	93	83	73	
+75	85	94	84	86	
+97	95	96	87	98	
+99	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 15
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 160
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	0	
+4	5	7	15	16	6	
+21	31	32	40	41	42	30	
+50	61	70	71	80	81	60	
+80	81	91	92	90	
+78	79	88	89	97	98	99	
+21	31	32	40	41	20	
+15	23	24	25	33	34	35	
+54	55	64	74	65	
+46	47	56	57	66	
+1	2	3	11	13	23	12	
+26	27	37	46	47	56	36	
+33	34	43	53	54	55	44	
+59	67	68	69	77	78	58	
+63	64	71	73	74	82	72	
+84	86	87	94	95	96	85	
+4	5	13	15	25	14	
+18	19	27	28	37	38	17	
+13	21	23	24	32	33	22	
+38	39	47	49	57	59	48	
+51	52	61	71	73	62	
+86	87	88	95	96	97	76	
+82	84	92	93	94	95	83	
+7	8	18	19	9	
+18	19	28	38	39	49	29	
+debatable node 11 belongs to cluster 12
+debatable node 7 belongs to cluster 6
+debatable node 81 belongs to cluster 60
+debatable node 92 belongs to cluster 83
+debatable node 73 belongs to cluster 72
+debatable node 84 belongs to cluster 85
+debatable node 49 belongs to cluster 48
+there are 25group(s)
+Group(0)= 	1	10	0	
+Group(6)= 	4	5	7	16	6	
+Group(30)= 	42	30	
+Group(60)= 	50	70	80	81	60	
+Group(90)= 	91	90	
+Group(99)= 	79	88	89	97	98	99	
+Group(20)= 	21	31	32	40	41	20	
+Group(35)= 	15	23	24	25	35	
+Group(65)= 	64	74	65	
+Group(66)= 	46	56	66	
+Group(12)= 	2	3	11	12	
+Group(36)= 	26	36	
+Group(44)= 	33	34	43	53	54	55	44	
+Group(58)= 	67	68	69	77	78	58	
+Group(72)= 	63	73	82	72	
+Group(85)= 	84	86	87	94	95	96	85	
+Group(14)= 	13	14	
+Group(17)= 	27	37	17	
+Group(22)= 	22	
+Group(48)= 	47	49	57	59	48	
+Group(62)= 	51	52	61	71	62	
+Group(76)= 	76	
+Group(83)= 	92	93	83	
+Group(9)= 	8	9	
+Group(29)= 	18	19	28	38	39	29	
+There are 98 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+formed clusters after phase II is: 
+10	0	
+16	6	5	7	
+8	9	18	19	
+2	3	12	1	11	
+14	4	15	13	
+17	27	37	
+20	40	41	
+22	21	32	33	
+29	28	38	39	
+42	30	31	
+35	23	24	25	34	
+26	36	47	
+43	53	44	55	
+48	57	59	49	
+67	68	69	77	58	
+50	70	60	80	81	
+51	52	62	61	71	
+65	54	64	74	
+66	46	56	
+63	72	73	82	
+76	88	97	86	87	
+93	83	92	94	
+85	84	95	96	
+91	90	
+79	89	98	99	78	
+Now, after clarification, the number of all nodes involved is 98
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 16
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 181
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	20	0	
+1	2	4	5	13	3	
+4	5	7	15	16	17	6	
+7	8	18	19	9	
+20	21	31	32	40	41	30	
+19	28	29	38	48	49	39	
+48	49	58	68	69	79	59	
+40	50	51	61	70	71	60	
+67	74	75	76	77	86	65	
+67	75	76	77	85	86	66	
+63	71	73	74	81	82	72	
+70	71	81	90	80	
+88	89	98	99	
+44	45	53	63	64	75	54	
+37	47	57	58	67	77	56	
+53	61	64	71	73	62	
+69	77	79	87	88	89	78	
+81	82	90	92	93	91	
+85	86	87	94	95	97	96	
+36	37	45	47	55	57	46	
+40	41	42	43	50	51	52	
+74	84	92	93	94	95	83	
+35	42	43	44	45	53	34	
+33	35	43	44	45	24	
+15	35	36	45	25	
+4	5	13	22	23	33	14	
+15	16	17	27	36	37	26	
+1	2	10	11	13	20	12	
+debatable node 17 belongs to cluster 26
+debatable node 69 belongs to cluster 59
+debatable node 82 belongs to cluster 72
+there are 28group(s)
+Group(0)= 	11	0	
+Group(3)= 	4	5	3	
+Group(6)= 	6	
+Group(9)= 	7	8	18	9	
+Group(30)= 	21	31	32	30	
+Group(39)= 	19	28	29	38	39	
+Group(59)= 	48	49	58	68	69	79	59	
+Group(60)= 	40	50	51	60	
+Group(65)= 	74	76	65	
+Group(66)= 	66	
+Group(72)= 	82	72	
+Group(80)= 	70	81	90	80	
+Group(99)= 	88	89	98	99	
+Group(54)= 	63	75	54	
+Group(56)= 	67	77	56	
+Group(62)= 	61	64	71	73	62	
+Group(78)= 	78	
+Group(91)= 	92	93	91	
+Group(96)= 	85	86	87	94	95	97	96	
+Group(46)= 	36	37	47	55	57	46	
+Group(52)= 	41	52	
+Group(83)= 	84	83	
+Group(34)= 	35	42	43	44	45	53	34	
+Group(24)= 	33	24	
+Group(25)= 	15	25	
+Group(14)= 	22	23	14	
+Group(26)= 	16	17	27	26	
+Group(12)= 	1	2	10	13	20	12	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =28
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =28
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =28
+formed clusters after phase II is: 
+0	1	10	11	
+3	4	5	
+6	
+8	18	9	7	19	
+12	20	2	13	
+22	23	14	
+24	44	33	
+25	15	45	
+27	26	16	17	
+21	31	32	30	
+34	42	43	35	
+28	29	38	39	48	
+55	46	47	57	36	
+52	40	41	50	
+54	75	63	
+56	58	77	37	
+68	59	49	69	
+60	51	61	70	
+62	73	53	64	
+65	74	76	
+66	67	86	85	
+72	71	82	
+78	79	88	87	
+80	81	90	
+84	83	94	
+91	92	93	
+97	96	95	
+98	99	89	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 17
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 163
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+0	2	10	11	12	21	1	
+4	6	7	13	14	15	5	
+8	9	18	29	19	
+0	10	11	21	30	31	20	
+28	29	38	48	49	39	
+40	41	42	50	52	61	51	
+57	64	65	66	67	76	55	
+57	65	66	67	76	56	
+49	58	68	69	79	59	
+54	61	63	64	72	73	62	
+60	61	71	80	70	
+71	80	81	82	91	92	90	
+83	84	85	92	94	95	93	
+88	89	97	98	99	
+52	54	63	64	65	53	
+73	75	76	84	85	94	74	
+78	87	88	89	96	97	77	
+45	54	64	65	44	
+87	88	95	96	97	98	86	
+32	33	34	42	52	64	43	
+37	38	47	48	57	67	46	
+22	24	32	33	34	42	23	
+16	24	25	26	36	47	35	
+2	4	12	13	14	24	3	
+8	9	18	27	28	29	17	
+debatable node 21 belongs to cluster 20
+debatable node 18 belongs to cluster 17
+debatable node 49 belongs to cluster 59
+debatable node 98 belongs to cluster 86
+debatable node 47 belongs to cluster 46
+there are 25group(s)
+Group(1)= 	1	
+Group(5)= 	6	7	15	5	
+Group(19)= 	19	
+Group(20)= 	0	10	11	21	30	31	20	
+Group(39)= 	28	29	39	
+Group(51)= 	40	41	50	51	
+Group(55)= 	65	66	76	55	
+Group(56)= 	56	
+Group(59)= 	49	58	68	69	79	59	
+Group(62)= 	54	63	64	72	73	62	
+Group(70)= 	60	61	71	80	70	
+Group(90)= 	81	82	91	92	90	
+Group(93)= 	83	93	
+Group(99)= 	99	
+Group(53)= 	53	
+Group(74)= 	75	84	85	94	74	
+Group(77)= 	78	87	88	89	96	97	77	
+Group(44)= 	45	44	
+Group(86)= 	95	98	86	
+Group(43)= 	32	33	34	42	52	43	
+Group(46)= 	37	38	47	48	57	67	46	
+Group(23)= 	22	23	
+Group(35)= 	16	24	25	26	36	35	
+Group(3)= 	2	4	12	13	14	3	
+Group(17)= 	8	9	18	27	17	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+formed clusters after phase II is: 
+1	0	2	10	
+3	12	4	13	14	
+6	7	15	5	
+27	17	8	18	28	
+19	9	
+30	31	20	11	21	
+22	23	42	24	
+16	25	26	36	35	
+39	29	
+43	32	33	34	
+45	44	
+37	46	38	48	47	
+40	41	50	51	
+53	52	64	54	
+55	66	76	
+56	57	65	67	
+58	68	69	79	59	49	
+72	62	63	73	
+60	70	61	71	80	
+75	74	85	94	
+78	77	97	87	96	
+86	95	88	98	
+81	82	91	90	
+83	93	92	84	
+99	89	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 18
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 137
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	0	
+7	8	18	19	28	9	
+20	21	31	40	41	30	
+40	41	51	60	61	70	50	
+68	69	78	88	89	79	
+80	91	90	
+82	91	93	92	
+24	25	33	34	43	35	
+59	66	68	69	77	78	67	
+66	74	76	85	86	75	
+13	14	21	22	24	32	23	
+16	17	18	26	28	38	27	
+48	49	59	68	69	78	58	
+62	64	73	74	83	84	63	
+2	4	5	12	13	14	3	
+5	7	15	16	17	26	6	
+18	19	28	29	38	49	39	
+41	42	43	51	52	62	53	
+61	62	70	71	81	82	72	
+83	84	85	93	95	94	
+85	86	87	95	97	98	96	
+87	88	89	97	98	99	
+debatable node 88 belongs to cluster 99
+debatable node 93 belongs to cluster 94
+debatable node 14 belongs to cluster 23
+debatable node 26 belongs to cluster 27
+debatable node 83 belongs to cluster 63
+debatable node 5 belongs to cluster 6
+debatable node 87 belongs to cluster 99
+there are 22group(s)
+Group(0)= 	1	10	11	0	
+Group(9)= 	8	19	9	
+Group(30)= 	20	31	30	
+Group(50)= 	40	41	51	60	61	70	50	
+Group(79)= 	79	
+Group(90)= 	80	91	90	
+Group(92)= 	82	92	
+Group(35)= 	24	25	33	34	43	35	
+Group(67)= 	77	67	
+Group(75)= 	66	76	86	75	
+Group(23)= 	13	14	21	22	32	23	
+Group(27)= 	18	26	28	38	27	
+Group(58)= 	48	49	59	68	69	78	58	
+Group(63)= 	62	64	73	74	83	63	
+Group(3)= 	2	4	12	3	
+Group(6)= 	5	7	15	16	17	6	
+Group(39)= 	29	39	
+Group(53)= 	42	52	53	
+Group(72)= 	71	81	72	
+Group(94)= 	84	85	93	95	94	
+Group(96)= 	96	
+Group(99)= 	87	88	89	97	98	99	
+There are 89 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =22
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =22
+formed clusters after phase II is: 
+1	10	11	0	
+2	4	12	3	
+15	6	7	5	
+8	9	
+22	32	23	13	14	
+27	28	16	17	26	
+20	31	30	21	
+25	33	34	35	24	43	
+29	39	18	19	38	
+60	50	40	70	
+42	52	53	41	51	
+48	58	78	59	49	
+64	73	63	62	83	
+77	67	68	69	
+71	81	72	61	
+76	75	66	74	86	
+79	89	
+80	90	91	
+92	82	
+94	93	85	84	
+96	95	97	
+99	88	87	98	
+Now, after clarification, the number of all nodes involved is 89
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 19
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 155
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+3	5	13	14	15	4	
+8	18	19	9	
+0	1	11	20	10	
+34	35	41	42	43	44	33	
+29	38	49	39	
+53	54	61	62	63	71	52	
+64	66	67	74	75	76	65	
+58	59	68	78	79	69	
+51	60	61	71	80	81	70	
+80	81	91	90	
+77	86	87	88	96	98	97	
+89	98	99	
+0	1	3	11	12	22	2	
+22	23	25	34	35	45	24	
+34	35	37	45	46	57	36	
+30	31	41	50	51	61	40	
+54	56	57	64	66	55	
+83	84	85	92	94	95	93	
+15	16	18	26	27	28	17	
+11	21	22	31	41	43	32	
+49	57	58	59	66	67	47	
+83	84	85	94	95	73	
+7	8	18	26	27	6	
+38	49	58	59	67	68	48	
+71	81	82	84	91	92	72	
+debatable node 43 belongs to cluster 33
+debatable node 51 belongs to cluster 40
+debatable node 98 belongs to cluster 97
+debatable node 83 belongs to cluster 73
+debatable node 95 belongs to cluster 73
+debatable node 27 belongs to cluster 17
+there are 25group(s)
+Group(4)= 	3	5	13	14	15	4	
+Group(9)= 	8	19	9	
+Group(10)= 	20	10	
+Group(33)= 	41	42	43	44	33	
+Group(39)= 	29	38	49	39	
+Group(52)= 	53	62	63	71	52	
+Group(65)= 	74	75	76	65	
+Group(69)= 	78	79	69	
+Group(70)= 	60	61	80	81	70	
+Group(90)= 	91	90	
+Group(97)= 	77	86	87	88	96	98	97	
+Group(99)= 	89	99	
+Group(2)= 	0	1	11	12	2	
+Group(24)= 	22	23	25	34	35	45	24	
+Group(36)= 	37	46	36	
+Group(40)= 	30	31	50	51	40	
+Group(55)= 	54	56	57	64	66	55	
+Group(93)= 	93	
+Group(17)= 	16	26	27	28	17	
+Group(32)= 	21	32	
+Group(47)= 	47	
+Group(73)= 	83	84	85	94	95	73	
+Group(6)= 	7	18	6	
+Group(48)= 	58	59	67	68	48	
+Group(72)= 	82	92	72	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+formed clusters after phase II is: 
+12	2	3	1	
+5	13	14	4	15	
+7	6	18	
+19	9	8	
+20	10	0	
+16	28	17	26	27	
+23	25	24	22	45	
+21	32	11	41	
+42	44	33	43	
+37	46	36	34	35	
+29	39	
+30	50	40	51	31	
+47	49	66	67	
+48	38	58	59	
+53	62	63	52	
+56	55	54	57	
+74	75	76	65	64	
+78	79	69	68	
+60	70	61	81	
+82	72	71	
+73	83	84	85	94	95	
+90	80	91	
+93	92	
+77	86	87	88	96	97	98	
+89	99	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 20
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 143
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	20	0	
+1	2	4	5	13	3	
+5	6	8	16	17	18	7	
+8	19	9	
+19	28	29	38	48	49	39	
+40	41	51	60	61	50	
+48	49	58	68	69	59	
+80	81	91	90	
+83	84	92	94	95	93	
+79	88	89	98	99	
+23	24	32	42	43	33	
+43	45	53	54	55	44	
+10	11	13	21	22	23	12	
+14	15	25	26	36	45	35	
+63	65	73	74	75	83	64	
+29	36	37	38	46	47	27	
+10	20	21	31	40	41	30	
+60	61	70	71	72	82	62	
+84	86	87	94	95	96	85	
+40	41	42	51	72	52	
+55	57	65	66	75	76	56	
+77	87	88	95	96	98	97	
+68	69	77	78	87	88	67	
+debatable node 11 belongs to cluster 12
+debatable node 19 belongs to cluster 39
+debatable node 61 belongs to cluster 62
+debatable node 21 belongs to cluster 12
+debatable node 72 belongs to cluster 62
+debatable node 87 belongs to cluster 85
+there are 23group(s)
+Group(0)= 	10	20	0	
+Group(3)= 	1	2	4	5	13	3	
+Group(7)= 	6	8	16	17	18	7	
+Group(9)= 	9	
+Group(39)= 	19	28	29	38	48	49	39	
+Group(50)= 	40	41	51	50	
+Group(59)= 	58	59	
+Group(90)= 	80	81	91	90	
+Group(93)= 	84	92	94	95	93	
+Group(99)= 	79	88	89	98	99	
+Group(33)= 	24	32	33	
+Group(44)= 	43	53	54	44	
+Group(12)= 	11	21	22	23	12	
+Group(35)= 	14	15	25	26	36	45	35	
+Group(64)= 	63	65	73	74	75	83	64	
+Group(27)= 	37	46	47	27	
+Group(30)= 	31	30	
+Group(62)= 	60	61	70	71	72	82	62	
+Group(85)= 	86	87	85	
+Group(52)= 	42	52	
+Group(56)= 	55	57	66	76	56	
+Group(97)= 	77	96	97	
+Group(67)= 	68	69	78	67	
+There are 99 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+formed clusters after phase II is: 
+0	10	20	
+2	4	3	1	
+6	16	17	18	7	5	
+9	8	
+22	12	11	13	21	
+37	46	47	27	38	
+31	30	
+24	32	33	23	
+14	15	25	26	35	36	
+28	39	19	29	
+53	54	44	43	45	
+50	41	51	
+52	40	42	
+57	66	76	56	55	
+58	59	48	49	
+70	71	82	62	60	61	72	
+63	73	74	64	65	75	
+78	67	68	69	
+86	85	84	87	
+80	81	91	90	
+92	93	83	94	95	
+97	88	96	77	
+79	89	99	98	
+Now, after clarification, the number of all nodes involved is 99
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 21
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 148
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+2	4	12	13	3	
+4	6	15	16	24	25	5	
+7	8	18	19	9	
+0	1	11	20	10	
+11	20	31	40	41	30	
+29	39	48	58	59	49	
+68	69	78	89	79	
+70	81	90	91	80	
+74	82	83	84	92	94	93	
+88	89	99	
+41	51	52	60	61	62	50	
+71	72	73	74	81	83	63	
+66	74	76	85	86	75	
+44	45	46	53	54	56	55	
+85	86	87	94	96	97	95	
+36	37	44	45	46	56	35	
+18	27	28	37	38	47	26	
+33	36	43	44	45	34	
+56	58	59	67	68	69	57	
+4	13	24	25	36	14	
+8	16	18	19	28	29	17	
+31	33	41	42	43	53	32	
+87	88	89	96	97	98	77	
+21	22	31	33	43	23	
+debatable node 13 belongs to cluster 14
+debatable node 19 belongs to cluster 17
+debatable node 11 belongs to cluster 30
+debatable node 20 belongs to cluster 30
+there are 24group(s)
+Group(3)= 	2	12	3	
+Group(5)= 	4	6	15	24	25	5	
+Group(9)= 	7	8	9	
+Group(10)= 	0	1	10	
+Group(30)= 	11	20	40	30	
+Group(49)= 	39	48	49	
+Group(79)= 	78	79	
+Group(80)= 	70	90	91	80	
+Group(93)= 	82	84	92	93	
+Group(99)= 	88	89	99	
+Group(50)= 	41	51	52	60	61	62	50	
+Group(63)= 	71	72	73	81	83	63	
+Group(75)= 	66	74	76	85	86	75	
+Group(55)= 	53	54	55	
+Group(95)= 	87	94	96	97	95	
+Group(35)= 	37	46	56	35	
+Group(26)= 	18	27	28	38	47	26	
+Group(34)= 	33	36	43	44	45	34	
+Group(57)= 	58	59	67	68	69	57	
+Group(14)= 	13	14	
+Group(17)= 	16	19	29	17	
+Group(32)= 	42	32	
+Group(77)= 	98	77	
+Group(23)= 	21	22	31	23	
+There are 98 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+2	12	3	
+6	15	5	24	
+7	9	8	
+0	1	10	
+14	4	13	25	
+17	16	18	19	
+21	22	23	33	
+27	38	47	26	28	
+40	30	11	20	
+42	32	31	41	
+34	45	36	43	
+35	46	56	37	
+39	48	49	29	58	
+51	52	60	61	62	50	
+54	55	44	53	
+67	57	59	69	
+71	72	73	63	83	
+66	76	75	85	86	
+98	77	87	
+78	79	68	
+70	90	91	80	81	
+82	84	92	93	74	94	
+95	96	97	
+99	89	88	
+Now, after clarification, the number of all nodes involved is 98
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 22
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 143
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+7	9	17	18	28	8	
+19	28	29	38	49	39	
+78	79	88	98	99	89	
+70	80	91	90	
+74	83	84	92	94	93	
+76	86	87	95	97	98	96	
+1	0	
+40	41	51	30	
+44	45	52	53	54	55	43	
+68	75	76	78	86	87	77	
+70	71	72	80	81	92	82	
+1	3	13	2	
+40	41	50	51	62	63	42	
+68	69	76	78	87	67	
+74	81	83	84	85	73	
+3	4	5	13	14	24	23	
+66	68	75	76	56	
+49	57	58	68	69	79	59	
+51	61	70	71	72	80	60	
+25	27	35	36	37	46	26	
+55	65	74	75	84	85	64	
+5	7	15	16	17	25	6	
+49	57	58	68	69	48	
+46	49	57	58	47	
+debatable node 7 belongs to cluster 6
+debatable node 17 belongs to cluster 6
+debatable node 28 belongs to cluster 39
+debatable node 98 belongs to cluster 96
+there are 24group(s)
+Group(8)= 	9	18	8	
+Group(39)= 	19	28	29	38	39	
+Group(89)= 	88	99	89	
+Group(90)= 	91	90	
+Group(93)= 	94	93	
+Group(96)= 	95	97	98	96	
+Group(0)= 	0	
+Group(30)= 	30	
+Group(43)= 	44	45	52	53	54	55	43	
+Group(77)= 	75	86	77	
+Group(82)= 	92	82	
+Group(2)= 	1	3	13	2	
+Group(42)= 	40	41	50	51	62	63	42	
+Group(67)= 	76	78	87	67	
+Group(73)= 	74	81	83	84	85	73	
+Group(23)= 	4	14	24	23	
+Group(56)= 	66	56	
+Group(59)= 	68	69	79	59	
+Group(60)= 	61	70	71	72	80	60	
+Group(26)= 	27	35	36	37	26	
+Group(64)= 	65	64	
+Group(6)= 	5	7	15	16	17	25	6	
+Group(48)= 	48	
+Group(47)= 	46	49	57	58	47	
+There are 90 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+0	1	
+2	3	13	
+15	16	6	7	17	25	
+9	18	8	
+4	14	24	23	5	
+27	35	36	37	26	
+30	40	41	51	
+19	29	38	39	28	
+50	62	63	42	
+44	45	52	53	54	43	
+47	57	58	46	
+48	49	68	
+66	56	76	
+59	79	69	
+61	60	71	72	
+65	64	74	55	
+67	78	87	
+73	84	81	85	
+77	86	75	
+82	70	80	92	
+88	99	89	
+91	90	
+94	93	83	
+95	97	96	98	
+Now, after clarification, the number of all nodes involved is 90
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 23
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 173
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	2	10	11	0	
+4	6	7	15	16	17	5	
+7	8	18	19	9	
+20	21	31	40	41	30	
+43	44	46	54	55	56	45	
+39	46	48	49	57	58	47	
+51	53	60	61	62	72	52	
+38	48	49	58	68	69	59	
+68	69	78	88	89	99	79	
+77	85	87	96	97	98	86	
+80	81	91	90	
+75	84	85	93	94	96	95	
+18	19	28	38	39	49	29	
+46	48	55	56	57	36	
+46	48	56	57	37	
+40	41	51	62	70	71	50	
+64	72	73	74	75	84	63	
+58	66	68	69	77	78	67	
+77	85	87	96	97	76	
+80	81	82	83	91	93	92	
+15	16	17	18	25	27	26	
+43	44	46	55	56	35	
+66	74	75	84	85	65	
+42	43	44	55	34	
+21	22	23	24	31	32	33	
+3	4	13	15	23	24	14	
+1	2	3	11	22	23	12	
+debatable node 17 belongs to cluster 26
+debatable node 41 belongs to cluster 50
+debatable node 38 belongs to cluster 29
+debatable node 81 belongs to cluster 92
+debatable node 66 belongs to cluster 67
+there are 27group(s)
+Group(0)= 	1	2	10	11	0	
+Group(5)= 	6	5	
+Group(9)= 	7	8	9	
+Group(30)= 	20	30	
+Group(45)= 	54	45	
+Group(47)= 	57	47	
+Group(52)= 	53	60	61	52	
+Group(59)= 	48	49	59	
+Group(79)= 	88	89	99	79	
+Group(86)= 	98	86	
+Group(90)= 	80	91	90	
+Group(95)= 	93	94	95	
+Group(29)= 	18	19	28	38	39	29	
+Group(36)= 	36	
+Group(37)= 	37	
+Group(50)= 	40	41	51	62	70	71	50	
+Group(63)= 	64	72	73	74	75	84	63	
+Group(67)= 	58	66	68	69	77	78	67	
+Group(76)= 	87	96	97	76	
+Group(92)= 	81	82	83	92	
+Group(26)= 	15	16	17	25	27	26	
+Group(35)= 	46	56	35	
+Group(65)= 	85	65	
+Group(34)= 	42	43	44	55	34	
+Group(33)= 	21	31	32	33	
+Group(14)= 	3	4	13	23	24	14	
+Group(12)= 	22	12	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =27
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =27
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =27
+formed clusters after phase II is: 
+10	0	2	11	
+6	5	4	15	
+8	9	7	18	
+12	1	22	
+13	14	24	3	
+25	27	26	16	17	
+28	29	19	38	
+20	30	21	
+32	33	31	23	
+42	34	44	
+35	56	
+36	55	57	
+37	46	48	
+54	45	43	
+47	39	58	
+70	71	50	40	41	62	
+53	60	61	52	51	
+59	49	
+64	73	63	72	74	
+65	85	75	84	
+67	68	69	66	
+76	87	96	97	
+88	89	99	79	78	
+98	86	77	
+90	80	91	
+82	83	92	81	
+94	95	93	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 24
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 157
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+0	2	12	1	
+7	8	18	19	28	9	
+28	35	36	37	38	47	27	
+28	29	37	38	49	39	
+53	54	61	62	63	72	52	
+48	49	58	68	69	59	
+83	84	85	93	95	94	
+88	89	97	98	99	
+0	11	20	21	30	31	10	
+6	15	16	17	24	25	26	
+34	42	44	45	53	54	43	
+40	41	42	50	60	61	51	
+74	75	83	84	85	93	73	
+69	77	79	87	88	89	78	
+71	80	81	82	90	91	92	
+85	86	87	95	97	98	96	
+3	4	6	13	16	5	
+22	23	24	32	42	54	33	
+56	65	66	74	75	76	64	
+48	57	58	68	69	87	67	
+60	80	81	82	90	91	70	
+2	3	4	12	13	22	14	
+56	65	66	74	75	76	55	
+56	57	58	65	66	46	
+debatable node 69 belongs to cluster 67
+debatable node 60 belongs to cluster 51
+debatable node 82 belongs to cluster 92
+there are 24group(s)
+Group(1)= 	0	2	12	1	
+Group(9)= 	7	8	18	19	9	
+Group(27)= 	35	36	47	27	
+Group(39)= 	28	29	37	38	49	39	
+Group(52)= 	62	63	72	52	
+Group(59)= 	59	
+Group(94)= 	83	84	85	93	95	94	
+Group(99)= 	88	89	97	98	99	
+Group(10)= 	11	20	21	30	31	10	
+Group(26)= 	15	17	24	25	26	
+Group(43)= 	34	44	45	53	54	43	
+Group(51)= 	40	41	42	50	60	61	51	
+Group(73)= 	74	75	73	
+Group(78)= 	77	79	78	
+Group(92)= 	71	82	92	
+Group(96)= 	86	87	96	
+Group(5)= 	3	4	6	13	16	5	
+Group(33)= 	23	32	33	
+Group(64)= 	76	64	
+Group(67)= 	48	68	69	67	
+Group(70)= 	80	81	90	91	70	
+Group(14)= 	22	14	
+Group(55)= 	55	
+Group(46)= 	56	57	58	65	66	46	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+1	0	
+5	6	16	4	13	
+7	8	18	19	9	28	
+11	20	21	30	31	10	
+14	2	12	3	22	
+15	17	25	26	
+35	36	47	27	37	38	
+23	32	33	24	42	
+29	39	
+34	44	45	43	54	
+46	58	66	57	
+40	41	50	51	60	
+62	63	72	52	53	61	
+55	56	65	
+59	49	
+64	74	76	
+67	48	68	69	
+70	81	90	91	
+73	83	85	75	
+77	79	78	88	
+71	92	80	82	
+94	84	93	95	
+86	96	97	87	
+99	89	98	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 25
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 148
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	0	
+4	5	7	15	16	17	6	
+7	8	17	18	19	28	9	
+59	68	78	79	88	89	69	
+70	80	81	91	90	
+85	86	87	95	96	98	97	
+78	79	87	88	89	98	99	
+1	3	11	12	14	22	2	
+30	40	50	41	
+38	39	47	48	57	58	49	
+18	19	27	28	38	39	29	
+32	33	42	44	43	
+30	40	50	60	61	51	
+3	12	13	14	22	34	23	
+11	20	21	22	30	40	31	
+54	62	64	72	73	74	63	
+62	64	72	73	74	53	
+81	83	84	91	92	93	82	
+44	45	46	54	56	66	55	
+80	81	83	91	92	71	
+84	85	86	93	95	96	94	
+24	25	26	34	36	37	35	
+67	75	76	77	85	86	65	
+debatable node 78 belongs to cluster 69
+debatable node 87 belongs to cluster 97
+debatable node 34 belongs to cluster 35
+there are 23group(s)
+Group(0)= 	1	10	0	
+Group(6)= 	4	5	15	16	6	
+Group(9)= 	7	8	17	9	
+Group(69)= 	59	68	78	69	
+Group(90)= 	70	80	81	91	90	
+Group(97)= 	87	97	
+Group(99)= 	79	88	89	98	99	
+Group(2)= 	2	
+Group(41)= 	41	
+Group(49)= 	47	48	57	58	49	
+Group(29)= 	18	19	27	28	38	39	29	
+Group(43)= 	32	33	42	43	
+Group(51)= 	50	60	61	51	
+Group(23)= 	3	12	13	14	23	
+Group(31)= 	11	20	21	22	30	40	31	
+Group(63)= 	62	64	72	73	74	63	
+Group(53)= 	53	
+Group(82)= 	83	92	82	
+Group(55)= 	44	45	46	54	56	66	55	
+Group(71)= 	71	
+Group(94)= 	84	85	86	93	95	96	94	
+Group(35)= 	24	25	26	34	36	37	35	
+Group(65)= 	67	75	76	77	65	
+There are 99 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+formed clusters after phase II is: 
+10	0	
+2	1	3	
+4	5	15	16	6	
+8	9	7	17	18	
+13	23	12	14	22	
+27	29	19	28	38	39	
+20	21	31	11	
+24	25	26	36	37	35	34	
+41	30	40	
+32	33	42	43	44	
+47	48	57	58	49	
+60	61	51	50	
+53	62	64	72	
+45	46	56	66	55	
+63	54	73	74	
+67	75	76	77	65	
+59	68	69	78	
+71	80	81	91	
+82	83	84	92	
+70	90	
+94	95	96	93	
+97	85	86	87	
+99	79	88	89	98	
+Now, after clarification, the number of all nodes involved is 99
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 26
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 161
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	0	
+5	7	15	16	17	26	6	
+7	8	18	19	9	
+10	11	21	30	31	40	20	
+35	42	43	44	45	53	34	
+29	38	48	49	59	39	
+56	65	66	73	74	75	55	
+80	81	82	90	92	91	
+82	83	84	92	94	95	93	
+85	86	87	95	97	96	
+79	88	89	97	98	99	
+10	11	13	21	22	23	12	
+25	35	44	45	46	47	36	
+40	41	51	52	60	61	50	
+62	64	72	73	74	84	63	
+59	68	78	79	88	89	69	
+1	3	4	10	13	2	
+24	42	43	44	53	33	
+27	28	38	46	47	48	37	
+42	43	53	65	73	74	54	
+49	57	59	67	68	58	
+60	61	71	80	81	90	70	
+3	4	13	23	24	25	14	
+40	41	42	43	53	32	
+76	78	85	86	87	88	77	
+debatable node 74 belongs to cluster 63
+debatable node 82 belongs to cluster 93
+debatable node 95 belongs to cluster 93
+debatable node 46 belongs to cluster 36
+debatable node 61 belongs to cluster 50
+debatable node 24 belongs to cluster 14
+there are 25group(s)
+Group(0)= 	1	0	
+Group(6)= 	5	15	16	17	26	6	
+Group(9)= 	7	8	18	19	9	
+Group(20)= 	10	11	21	30	31	40	20	
+Group(34)= 	35	42	43	44	45	53	34	
+Group(39)= 	29	39	
+Group(55)= 	56	65	66	75	55	
+Group(91)= 	92	91	
+Group(93)= 	82	83	94	95	93	
+Group(96)= 	85	86	87	97	96	
+Group(99)= 	98	99	
+Group(12)= 	13	22	23	12	
+Group(36)= 	46	47	36	
+Group(50)= 	51	52	61	50	
+Group(63)= 	62	64	72	73	74	84	63	
+Group(69)= 	78	79	88	89	69	
+Group(2)= 	3	4	2	
+Group(33)= 	33	
+Group(37)= 	27	28	38	48	37	
+Group(54)= 	54	
+Group(58)= 	49	57	59	67	68	58	
+Group(70)= 	60	71	80	81	90	70	
+Group(14)= 	24	25	14	
+Group(32)= 	41	32	
+Group(77)= 	76	77	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+formed clusters after phase II is: 
+0	1	
+2	3	4	
+5	15	16	17	26	6	
+8	18	19	9	7	
+22	12	10	23	
+14	13	25	24	
+30	31	20	11	21	
+32	40	41	
+33	42	43	
+34	44	45	
+36	35	46	47	
+27	28	37	48	
+29	39	38	49	
+51	52	50	61	
+54	53	65	
+56	66	75	55	
+57	67	58	59	68	
+62	64	72	63	73	74	
+69	88	89	78	
+71	70	90	60	
+76	77	85	
+91	80	81	92	
+83	94	93	82	84	95	
+96	86	87	
+98	99	97	79	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 27
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 161
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	20	0	
+1	3	11	12	2	
+3	5	13	14	4	
+7	9	18	19	8	
+25	26	33	34	35	36	24	
+28	29	38	49	39	
+46	47	49	56	57	58	48	
+30	40	41	60	61	71	50	
+45	53	55	63	64	65	54	
+58	68	69	59	
+81	82	83	84	93	94	72	
+70	80	81	82	91	92	90	
+86	87	88	96	98	97	
+79	88	89	98	99	
+5	7	16	18	25	27	6	
+10	11	20	30	31	41	21	
+14	22	32	33	34	43	23	
+53	55	63	64	65	44	
+55	58	66	68	76	77	67	
+74	82	83	84	94	73	
+69	77	79	87	88	89	78	
+75	84	85	86	94	96	95	
+18	26	27	28	37	38	17	
+71	81	82	83	62	
+25	26	27	35	36	15	
+41	42	43	51	60	61	52	
+debatable node 5 belongs to cluster 6
+debatable node 58 belongs to cluster 48
+there are 26group(s)
+Group(0)= 	10	11	20	0	
+Group(2)= 	1	3	12	2	
+Group(4)= 	13	4	
+Group(8)= 	9	19	8	
+Group(24)= 	24	
+Group(39)= 	28	29	38	49	39	
+Group(48)= 	46	47	56	57	58	48	
+Group(50)= 	30	40	41	60	61	50	
+Group(54)= 	45	53	63	64	65	54	
+Group(59)= 	69	59	
+Group(72)= 	93	72	
+Group(90)= 	70	80	91	92	90	
+Group(97)= 	86	87	88	96	98	97	
+Group(99)= 	79	89	99	
+Group(6)= 	5	7	16	6	
+Group(21)= 	31	21	
+Group(23)= 	14	22	32	33	34	43	23	
+Group(44)= 	44	
+Group(67)= 	55	66	68	76	77	67	
+Group(73)= 	74	84	94	73	
+Group(78)= 	78	
+Group(95)= 	75	85	95	
+Group(17)= 	18	27	37	17	
+Group(62)= 	71	81	82	83	62	
+Group(15)= 	25	26	35	36	15	
+Group(52)= 	42	51	52	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+formed clusters after phase II is: 
+0	1	
+12	2	11	
+13	4	3	14	
+16	6	5	7	
+9	19	8	
+15	35	36	
+37	17	18	27	
+31	21	10	20	30	
+22	32	23	34	43	
+24	25	26	33	
+29	39	28	38	49	
+44	53	55	63	
+46	47	56	57	48	58	
+40	50	60	61	
+42	51	52	41	
+45	54	64	65	
+59	68	69	
+62	71	82	83	
+66	76	67	77	
+93	72	81	
+74	73	84	94	
+78	87	88	
+70	80	91	92	90	
+75	85	95	86	
+97	96	98	
+99	79	89	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 28
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 146
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	2	10	11	20	21	0	
+2	4	5	13	14	23	3	
+5	7	8	15	17	18	6	
+7	8	17	18	19	29	9	
+31	32	34	42	43	52	33	
+35	36	44	46	55	65	45	
+40	41	51	60	61	50	
+75	76	77	78	85	86	66	
+58	59	68	78	79	69	
+70	80	81	82	91	90	
+88	89	98	99	
+10	11	20	21	22	23	12	
+15	16	17	24	26	35	25	
+21	22	31	32	40	41	30	
+28	29	38	48	49	59	39	
+44	52	53	62	63	64	54	
+65	67	75	76	77	56	
+85	86	87	95	97	98	96	
+26	28	29	37	38	48	27	
+49	57	58	59	67	47	
+64	71	72	74	83	93	73	
+74	83	92	93	94	95	84	
+debatable node 23 belongs to cluster 12
+debatable node 41 belongs to cluster 30
+debatable node 58 belongs to cluster 47
+debatable node 22 belongs to cluster 12
+debatable node 49 belongs to cluster 47
+there are 22group(s)
+Group(0)= 	1	10	11	20	21	0	
+Group(3)= 	2	4	13	14	3	
+Group(6)= 	5	6	
+Group(9)= 	7	8	18	19	9	
+Group(33)= 	31	32	34	42	43	33	
+Group(45)= 	36	46	55	45	
+Group(50)= 	40	51	60	61	50	
+Group(66)= 	66	
+Group(69)= 	68	78	79	69	
+Group(90)= 	70	80	81	82	91	90	
+Group(99)= 	88	89	98	99	
+Group(12)= 	22	23	12	
+Group(25)= 	15	16	17	24	35	25	
+Group(30)= 	41	30	
+Group(39)= 	39	
+Group(54)= 	44	52	53	62	63	64	54	
+Group(56)= 	65	75	76	77	56	
+Group(96)= 	85	86	87	95	97	96	
+Group(27)= 	26	28	29	37	38	48	27	
+Group(47)= 	49	57	58	59	67	47	
+Group(73)= 	71	72	74	83	93	73	
+Group(84)= 	92	94	84	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =22
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =22
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =22
+formed clusters after phase II is: 
+1	0	11	20	21	
+4	13	14	3	2	5	
+6	7	8	
+19	9	17	18	
+12	10	23	22	
+16	24	25	15	35	
+37	27	26	38	48	
+30	31	40	41	
+34	42	43	33	32	52	
+39	29	28	
+36	46	55	45	44	
+57	47	58	59	49	
+51	60	61	50	
+53	62	63	54	64	
+56	65	77	67	
+66	75	76	85	86	
+68	79	69	78	
+71	72	73	83	93	
+92	94	84	95	74	
+70	80	81	82	91	90	
+87	97	96	
+88	89	99	98	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 29
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 154
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	2	10	11	12	0	
+15	16	17	18	26	27	6	
+8	18	19	9	
+19	28	39	49	29	
+49	58	69	59	
+50	51	61	70	71	60	
+68	69	77	78	88	89	79	
+83	84	86	93	94	96	95	
+88	89	98	99	
+3	4	14	15	16	17	5	
+43	53	62	63	64	54	
+66	74	75	76	85	86	65	
+81	82	90	91	93	94	92	
+8	15	16	17	18	27	7	
+14	23	24	25	35	45	34	
+51	52	53	61	62	63	42	
+63	64	72	82	83	84	73	
+77	86	87	88	96	98	97	
+2	3	4	12	21	22	13	
+22	23	24	32	43	53	33	
+45	46	47	48	57	67	56	
+70	71	81	82	90	91	80	
+20	30	32	40	41	50	31	
+37	38	45	46	47	48	36	
+debatable node 8 belongs to cluster 7
+debatable node 19 belongs to cluster 29
+debatable node 69 belongs to cluster 59
+debatable node 77 belongs to cluster 79
+debatable node 96 belongs to cluster 97
+there are 24group(s)
+Group(0)= 	1	2	10	11	12	0	
+Group(6)= 	26	6	
+Group(9)= 	9	
+Group(29)= 	19	28	39	29	
+Group(59)= 	49	58	69	59	
+Group(60)= 	51	61	60	
+Group(79)= 	68	77	78	79	
+Group(95)= 	93	94	95	
+Group(99)= 	89	99	
+Group(5)= 	3	4	15	16	17	5	
+Group(54)= 	43	53	62	63	64	54	
+Group(65)= 	66	74	75	76	85	65	
+Group(92)= 	92	
+Group(7)= 	8	18	27	7	
+Group(34)= 	14	23	24	25	35	45	34	
+Group(42)= 	52	42	
+Group(73)= 	72	82	83	84	73	
+Group(97)= 	86	87	88	96	98	97	
+Group(13)= 	21	22	13	
+Group(33)= 	33	
+Group(56)= 	46	47	48	57	67	56	
+Group(80)= 	70	71	81	90	91	80	
+Group(31)= 	20	30	32	40	41	50	31	
+Group(36)= 	37	38	36	
+There are 98 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+1	10	11	0	12	
+5	3	4	14	
+26	6	15	16	
+7	17	18	27	8	
+9	
+21	13	2	22	
+28	39	29	19	
+20	30	40	41	31	
+33	43	53	23	32	
+25	35	34	24	
+37	38	36	45	46	
+52	42	51	61	
+54	62	63	64	
+57	67	56	47	48	
+58	59	49	69	
+60	50	70	71	
+66	74	75	76	85	65	
+72	73	83	84	
+68	78	79	77	88	
+80	90	91	
+92	81	82	
+95	93	94	
+87	97	86	96	
+99	89	98	
+Now, after clarification, the number of all nodes involved is 98
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 30
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 158
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+4	5	7	15	16	17	6	
+7	9	17	18	8	
+39	48	49	58	69	59	
+54	64	66	74	75	76	65	
+66	68	76	77	78	87	67	
+76	85	87	95	96	97	86	
+80	81	91	92	90	
+78	79	88	89	98	99	
+2	4	5	12	13	14	3	
+9	18	28	29	38	39	19	
+41	42	43	51	53	60	52	
+50	51	60	80	70	
+82	83	85	92	93	95	94	
+34	35	41	42	43	44	33	
+30	31	41	50	51	60	40	
+54	63	64	72	73	74	62	
+0	1	11	20	21	30	10	
+11	21	22	31	41	43	32	
+36	45	46	47	56	66	55	
+82	83	85	93	95	84	
+13	14	22	24	34	35	23	
+58	66	68	76	77	57	
+15	16	24	26	27	45	25	
+27	28	38	39	48	49	37	
+debatable node 7 belongs to cluster 6
+debatable node 78 belongs to cluster 67
+debatable node 93 belongs to cluster 84
+debatable node 30 belongs to cluster 40
+debatable node 31 belongs to cluster 32
+debatable node 21 belongs to cluster 32
+debatable node 45 belongs to cluster 55
+there are 24group(s)
+Group(6)= 	4	5	7	6	
+Group(8)= 	9	17	18	8	
+Group(59)= 	39	48	49	58	69	59	
+Group(65)= 	75	65	
+Group(67)= 	68	76	77	78	87	67	
+Group(86)= 	85	95	96	97	86	
+Group(90)= 	81	91	92	90	
+Group(99)= 	79	88	89	98	99	
+Group(3)= 	2	12	13	14	3	
+Group(19)= 	28	29	38	19	
+Group(52)= 	41	42	43	53	52	
+Group(70)= 	50	51	60	80	70	
+Group(94)= 	94	
+Group(33)= 	44	33	
+Group(40)= 	30	40	
+Group(62)= 	54	63	64	72	73	74	62	
+Group(10)= 	0	1	11	20	10	
+Group(32)= 	21	31	32	
+Group(55)= 	36	45	46	47	56	66	55	
+Group(84)= 	82	83	93	84	
+Group(23)= 	22	24	34	35	23	
+Group(57)= 	57	
+Group(25)= 	15	16	26	27	25	
+Group(37)= 	37	
+There are 98 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+2	12	3	13	14	
+6	4	5	7	
+8	17	9	18	
+0	1	20	10	
+29	19	28	38	
+23	35	22	24	
+26	25	15	16	
+32	31	11	21	
+44	33	42	34	
+37	48	49	27	
+40	41	30	
+53	52	43	51	
+36	46	47	56	55	45	
+57	58	66	76	
+69	59	39	
+63	72	73	62	74	
+75	65	54	64	
+67	68	77	78	87	
+70	80	60	50	
+84	82	83	93	
+96	97	86	85	95	
+81	91	90	92	
+94	
+79	88	89	98	99	
+Now, after clarification, the number of all nodes involved is 98
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 31
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 141
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	2	10	11	0	
+5	7	14	15	16	17	6	
+7	8	18	19	9	
+13	14	22	24	33	34	23	
+20	21	31	40	41	50	30	
+50	51	61	70	60	
+63	64	71	72	73	74	62	
+74	84	86	94	95	96	85	
+80	81	91	90	
+79	88	89	97	98	99	
+2	4	5	14	15	3	
+31	33	40	41	42	52	32	
+14	24	25	26	35	
+29	39	49	
+82	83	91	92	94	95	93	
+1	2	10	11	21	31	12	
+46	47	48	57	37	
+16	17	18	26	28	39	27	
+44	53	54	55	56	65	45	
+48	57	59	67	68	69	58	
+42	52	53	54	63	64	43	
+75	76	78	86	87	88	77	
+67	75	76	78	87	66	
+debatable node 11 belongs to cluster 12
+debatable node 15 belongs to cluster 6
+debatable node 41 belongs to cluster 32
+debatable node 95 belongs to cluster 85
+debatable node 57 belongs to cluster 37
+debatable node 53 belongs to cluster 43
+debatable node 78 belongs to cluster 66
+there are 23group(s)
+Group(0)= 	2	10	0	
+Group(6)= 	15	6	
+Group(9)= 	7	8	19	9	
+Group(23)= 	13	14	22	24	33	34	23	
+Group(30)= 	20	30	
+Group(60)= 	50	51	61	70	60	
+Group(62)= 	71	72	73	62	
+Group(85)= 	74	84	86	94	95	96	85	
+Group(90)= 	80	81	91	90	
+Group(99)= 	79	88	89	97	98	99	
+Group(3)= 	4	5	3	
+Group(32)= 	40	41	32	
+Group(35)= 	25	35	
+Group(49)= 	29	49	
+Group(93)= 	82	83	92	93	
+Group(12)= 	1	11	21	31	12	
+Group(37)= 	46	47	57	37	
+Group(27)= 	16	17	18	26	28	39	27	
+Group(45)= 	44	55	56	65	45	
+Group(58)= 	48	59	68	69	58	
+Group(43)= 	42	52	53	54	63	64	43	
+Group(77)= 	77	
+Group(66)= 	67	75	76	78	87	66	
+There are 98 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+formed clusters after phase II is: 
+0	2	10	
+4	3	5	
+6	7	15	17	
+8	19	9	18	
+12	1	11	
+13	22	34	23	
+28	27	16	26	
+20	30	21	31	
+32	33	40	41	
+25	35	14	24	
+46	47	37	48	57	
+43	42	52	53	54	
+44	55	56	65	45	
+29	49	39	
+59	68	69	58	67	
+51	61	70	60	50	
+71	72	73	62	63	64	
+66	75	78	87	
+77	86	88	76	
+84	96	85	74	94	95	
+80	81	90	91	
+82	83	92	93	
+79	89	97	98	99	
+Now, after clarification, the number of all nodes involved is 98
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 32
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 151
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	2	10	11	0	
+3	5	6	12	13	14	4	
+8	17	18	19	9	
+18	19	28	39	49	29	
+30	31	41	42	50	51	40	
+38	39	47	49	58	59	48	
+74	75	82	83	84	73	
+70	80	81	91	90	
+82	83	84	91	93	94	92	
+93	94	95	
+88	89	97	98	99	
+7	15	17	25	26	27	16	
+10	21	22	30	31	20	
+32	33	34	35	43	44	24	
+36	38	39	46	47	37	
+52	53	61	70	71	72	62	
+59	68	69	78	88	89	79	
+76	86	87	96	97	85	
+22	32	34	35	43	44	23	
+50	51	70	71	80	81	60	
+54	55	64	65	74	75	63	
+55	57	65	66	75	77	56	
+36	44	46	47	54	57	45	
+76	77	78	86	87	88	67	
+debatable node 17 belongs to cluster 16
+debatable node 31 belongs to cluster 40
+debatable node 59 belongs to cluster 48
+debatable node 97 belongs to cluster 85
+debatable node 71 belongs to cluster 62
+debatable node 77 belongs to cluster 67
+there are 24group(s)
+Group(0)= 	1	2	10	11	0	
+Group(4)= 	3	5	6	12	13	14	4	
+Group(9)= 	8	9	
+Group(29)= 	18	19	28	39	49	29	
+Group(40)= 	31	41	42	40	
+Group(48)= 	38	47	58	59	48	
+Group(73)= 	82	83	84	73	
+Group(90)= 	91	90	
+Group(92)= 	92	
+Group(95)= 	93	94	95	
+Group(99)= 	89	98	99	
+Group(16)= 	7	15	17	25	26	27	16	
+Group(20)= 	21	30	20	
+Group(24)= 	32	33	34	35	43	44	24	
+Group(37)= 	37	
+Group(62)= 	52	53	61	70	71	72	62	
+Group(79)= 	68	69	79	
+Group(85)= 	96	97	85	
+Group(23)= 	22	23	
+Group(60)= 	50	51	80	81	60	
+Group(63)= 	54	55	64	65	74	75	63	
+Group(56)= 	57	66	56	
+Group(45)= 	36	46	45	
+Group(67)= 	76	77	78	86	87	88	67	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+1	2	11	0	
+3	5	6	12	13	14	4	
+8	9	19	
+7	15	25	26	27	16	17	
+21	20	10	30	
+23	22	32	
+33	24	34	35	43	
+28	29	18	
+37	39	38	36	
+41	42	40	31	
+45	47	44	46	
+58	48	49	59	
+66	56	75	57	
+60	50	51	
+52	53	61	72	62	71	
+64	63	54	55	65	
+67	86	87	77	
+73	74	84	
+68	69	79	88	78	
+96	85	97	76	
+90	70	80	81	
+92	82	83	91	
+95	93	94	
+98	99	89	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 33
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 148
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	0	
+1	3	11	12	13	2	
+8	18	19	29	9	
+28	29	38	47	48	49	39	
+30	31	41	50	51	40	
+48	49	57	58	68	69	59	
+50	51	61	70	71	72	60	
+53	54	55	62	64	74	63	
+74	75	76	77	84	85	65	
+70	80	81	91	92	90	
+73	83	84	92	94	93	
+79	88	89	97	98	99	
+3	5	6	13	14	15	4	
+1	10	11	12	21	31	20	
+12	21	23	24	32	33	22	
+41	51	52	53	62	42	
+37	43	44	46	56	66	45	
+70	80	81	84	91	92	82	
+85	86	87	94	96	97	95	
+33	35	36	43	44	34	
+57	58	68	69	77	78	67	
+26	33	35	36	44	25	
+7	17	18	26	27	28	16	
+debatable node 49 belongs to cluster 39
+debatable node 69 belongs to cluster 67
+debatable node 85 belongs to cluster 65
+debatable node 26 belongs to cluster 16
+there are 23group(s)
+Group(0)= 	1	10	0	
+Group(2)= 	3	11	12	13	2	
+Group(9)= 	8	18	19	9	
+Group(39)= 	28	29	38	47	48	49	39	
+Group(40)= 	30	40	
+Group(59)= 	59	
+Group(60)= 	50	61	70	71	72	60	
+Group(63)= 	54	55	64	63	
+Group(65)= 	74	75	76	84	85	65	
+Group(90)= 	80	81	91	92	90	
+Group(93)= 	73	83	93	
+Group(99)= 	79	88	89	97	98	99	
+Group(4)= 	5	6	14	15	4	
+Group(20)= 	31	20	
+Group(22)= 	21	23	24	32	22	
+Group(42)= 	41	51	52	53	62	42	
+Group(45)= 	37	46	56	66	45	
+Group(82)= 	82	
+Group(95)= 	86	87	94	96	95	
+Group(34)= 	33	35	36	43	44	34	
+Group(67)= 	57	58	68	69	77	78	67	
+Group(25)= 	25	
+Group(16)= 	7	17	26	27	16	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+formed clusters after phase II is: 
+0	
+2	11	3	12	13	
+5	6	14	15	4	
+8	19	9	18	29	
+7	17	27	16	26	
+20	1	10	
+23	24	32	22	21	
+25	35	
+34	33	43	44	36	
+38	47	39	28	48	49	
+30	40	31	41	50	
+52	42	51	53	62	
+37	46	56	66	45	
+59	
+61	71	72	60	
+54	55	64	63	74	
+75	76	65	77	85	
+78	67	57	58	68	69	
+82	70	80	
+90	81	91	92	
+73	83	93	84	
+86	87	96	95	94	
+79	88	89	98	99	97	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 34
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 165
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	0	
+5	7	16	17	6	
+8	17	18	19	29	9	
+10	21	30	31	40	20	
+46	54	55	56	57	65	45	
+41	52	54	62	63	64	53	
+38	48	49	58	68	69	59	
+60	61	71	80	70	
+63	71	73	82	83	91	72	
+80	81	91	92	90	
+83	84	85	92	94	95	93	
+88	89	97	98	99	
+2	4	5	12	13	14	3	
+46	54	55	56	65	44	
+65	67	68	75	76	86	66	
+83	84	85	86	94	95	74	
+36	46	54	55	35	
+23	32	33	41	42	54	43	
+37	38	48	49	58	68	47	
+69	77	78	88	89	98	79	
+76	77	86	87	95	97	96	
+16	17	18	25	27	28	26	
+40	41	50	60	61	71	51	
+14	16	24	25	34	15	
+18	19	29	37	38	49	39	
+11	12	13	14	21	33	22	
+debatable node 5 belongs to cluster 6
+debatable node 29 belongs to cluster 39
+debatable node 21 belongs to cluster 22
+debatable node 69 belongs to cluster 59
+debatable node 76 belongs to cluster 66
+debatable node 33 belongs to cluster 43
+debatable node 77 belongs to cluster 96
+there are 26group(s)
+Group(0)= 	1	10	11	0	
+Group(6)= 	5	7	6	
+Group(9)= 	8	9	
+Group(20)= 	30	31	20	
+Group(45)= 	57	45	
+Group(53)= 	52	62	63	64	53	
+Group(59)= 	48	58	68	69	59	
+Group(70)= 	70	
+Group(72)= 	73	82	72	
+Group(90)= 	80	81	91	92	90	
+Group(93)= 	93	
+Group(99)= 	88	89	97	98	99	
+Group(3)= 	2	4	12	13	14	3	
+Group(44)= 	56	65	44	
+Group(66)= 	67	75	76	66	
+Group(74)= 	83	84	85	94	74	
+Group(35)= 	36	46	54	55	35	
+Group(43)= 	23	32	33	42	43	
+Group(47)= 	47	
+Group(79)= 	78	79	
+Group(96)= 	77	86	87	95	96	
+Group(26)= 	16	17	25	27	28	26	
+Group(51)= 	40	41	50	60	61	71	51	
+Group(15)= 	24	34	15	
+Group(39)= 	18	19	29	37	38	49	39	
+Group(22)= 	21	22	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+formed clusters after phase II is: 
+1	0	10	
+2	4	3	13	14	
+7	6	5	17	
+8	9	19	
+24	34	15	16	
+30	31	20	40	
+22	11	21	12	
+27	28	26	18	25	
+36	35	54	55	
+39	29	49	37	
+23	32	42	43	33	
+44	56	65	
+57	45	46	
+47	38	48	58	
+50	51	41	71	
+52	62	64	53	
+59	68	69	
+67	75	66	76	
+70	60	61	80	
+73	82	72	63	
+74	84	85	94	
+78	79	89	
+81	90	91	
+93	83	92	95	
+87	96	86	77	
+99	88	97	98	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 35
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 159
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	12	0	
+3	5	13	14	15	24	4	
+7	8	18	19	9	
+18	19	27	28	38	39	29	
+40	51	61	50	
+33	42	43	44	45	55	54	
+55	57	65	66	67	76	56	
+80	81	91	90	
+83	84	92	93	95	96	94	
+88	89	98	99	
+1	3	11	12	14	22	2	
+33	34	35	43	44	45	23	
+45	47	55	57	66	46	
+43	52	62	63	64	73	53	
+85	86	87	95	96	98	97	
+6	15	16	17	26	36	25	
+33	34	41	42	43	44	32	
+38	39	47	48	58	59	49	
+51	61	70	71	80	81	60	
+65	75	76	84	85	74	
+80	81	83	91	92	93	82	
+10	20	21	31	40	41	30	
+28	36	38	39	48	58	37	
+59	67	69	77	78	79	68	
+81	83	91	92	93	72	
+debatable node 12 belongs to cluster 2
+debatable node 18 belongs to cluster 29
+debatable node 40 belongs to cluster 30
+debatable node 61 belongs to cluster 50
+debatable node 47 belongs to cluster 46
+debatable node 85 belongs to cluster 74
+debatable node 58 belongs to cluster 37
+debatable node 59 belongs to cluster 49
+there are 25group(s)
+Group(0)= 	10	11	0	
+Group(4)= 	3	5	13	14	24	4	
+Group(9)= 	7	8	9	
+Group(29)= 	18	19	27	28	38	39	29	
+Group(50)= 	51	61	50	
+Group(54)= 	33	42	43	44	54	
+Group(56)= 	65	67	76	56	
+Group(90)= 	90	
+Group(94)= 	83	84	92	93	95	96	94	
+Group(99)= 	88	89	98	99	
+Group(2)= 	1	12	22	2	
+Group(23)= 	34	35	23	
+Group(46)= 	45	47	55	57	66	46	
+Group(53)= 	52	62	63	64	73	53	
+Group(97)= 	86	87	97	
+Group(25)= 	6	15	16	17	26	36	25	
+Group(32)= 	41	32	
+Group(49)= 	59	49	
+Group(60)= 	70	71	80	81	60	
+Group(74)= 	75	85	74	
+Group(82)= 	91	82	
+Group(30)= 	20	21	31	40	30	
+Group(37)= 	48	58	37	
+Group(68)= 	69	77	78	79	68	
+Group(72)= 	72	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+formed clusters after phase II is: 
+0	1	10	11	
+22	2	12	3	14	
+5	13	24	4	15	
+7	8	9	19	
+35	23	45	34	
+6	16	17	26	25	
+27	29	18	39	
+20	21	31	30	40	
+32	33	41	
+37	28	36	48	58	
+46	55	57	66	47	
+49	38	59	
+50	51	61	
+52	62	63	64	73	53	
+54	42	43	44	
+56	65	67	76	
+70	71	60	
+69	77	78	79	68	
+72	81	83	92	
+75	74	84	85	
+82	80	91	
+90	
+94	93	95	96	
+86	87	97	
+88	89	99	98	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 36
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 165
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	2	10	11	0	
+3	4	6	14	15	16	5	
+7	8	19	29	9	
+21	30	31	41	50	51	40	
+38	39	48	58	59	49	
+45	46	56	64	65	66	55	
+50	51	61	70	60	
+70	71	81	90	80	
+79	88	98	99	89	
+81	82	83	91	93	92	
+86	87	96	98	99	97	
+10	11	12	21	22	30	20	
+6	14	15	16	26	36	25	
+32	33	34	44	63	64	54	
+48	56	58	66	67	68	57	
+59	68	77	78	79	88	69	
+73	75	83	84	85	95	74	
+84	85	86	93	95	96	94	
+14	16	24	35	
+43	44	51	52	53	62	42	
+78	85	86	87	88	96	76	
+12	13	14	21	22	24	23	
+38	39	46	47	48	37	
+71	73	81	82	83	84	72	
+19	26	28	36	38	39	27	
+7	8	16	17	19	28	18	
+debatable node 7 belongs to cluster 18
+debatable node 58 belongs to cluster 57
+debatable node 59 belongs to cluster 69
+debatable node 36 belongs to cluster 27
+debatable node 68 belongs to cluster 57
+there are 26group(s)
+Group(0)= 	1	2	10	11	0	
+Group(5)= 	3	4	5	
+Group(9)= 	29	9	
+Group(40)= 	31	41	40	
+Group(49)= 	49	
+Group(55)= 	45	46	56	65	66	55	
+Group(60)= 	50	61	60	
+Group(80)= 	70	71	81	90	80	
+Group(89)= 	79	88	89	
+Group(92)= 	82	91	92	
+Group(97)= 	87	98	99	97	
+Group(20)= 	30	20	
+Group(25)= 	6	15	25	
+Group(54)= 	32	33	34	63	64	54	
+Group(57)= 	58	67	68	57	
+Group(69)= 	59	77	78	69	
+Group(74)= 	73	75	83	74	
+Group(94)= 	84	85	86	93	95	96	94	
+Group(35)= 	14	24	35	
+Group(42)= 	43	44	51	52	53	62	42	
+Group(76)= 	76	
+Group(23)= 	12	13	21	22	23	
+Group(37)= 	47	48	37	
+Group(72)= 	72	
+Group(27)= 	26	36	38	39	27	
+Group(18)= 	7	8	16	17	19	28	18	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =26
+formed clusters after phase II is: 
+1	2	0	11	
+3	4	5	
+29	9	
+17	18	7	8	19	
+20	10	21	30	
+13	23	12	22	
+25	6	15	16	
+27	39	26	36	28	
+35	14	24	
+47	37	38	48	46	
+31	41	40	
+43	52	53	62	42	44	
+49	
+32	33	34	63	54	64	
+45	65	55	56	66	
+67	57	58	68	
+61	60	50	51	
+77	69	59	78	
+72	71	81	
+75	74	83	73	84	
+76	86	96	85	
+90	80	70	
+89	79	88	98	
+91	92	82	93	
+94	95	
+97	99	87	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 37
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 154
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	20	0	
+4	6	7	15	16	5	
+8	17	18	19	29	9	
+29	38	47	48	49	59	39	
+46	47	56	57	58	68	67	
+58	59	68	78	79	89	69	
+80	81	91	92	90	
+85	86	87	95	97	96	
+88	89	98	99	
+1	3	4	11	12	13	2	
+15	23	24	25	34	35	14	
+31	32	40	41	42	50	30	
+76	78	86	87	88	97	77	
+75	83	84	85	93	95	94	
+31	32	40	41	42	21	
+34	36	43	45	54	55	44	
+41	50	51	61	62	70	60	
+55	56	65	76	78	66	
+17	18	27	28	36	37	26	
+31	32	41	42	43	52	33	
+53	54	55	63	65	73	64	
+31	32	41	42	43	22	
+72	80	81	82	91	92	71	
+65	72	73	82	83	74	
+debatable node 15 belongs to cluster 14
+debatable node 58 belongs to cluster 67
+debatable node 89 belongs to cluster 99
+debatable node 81 belongs to cluster 71
+debatable node 92 belongs to cluster 71
+debatable node 88 belongs to cluster 77
+debatable node 76 belongs to cluster 77
+there are 24group(s)
+Group(0)= 	1	10	11	20	0	
+Group(5)= 	6	7	16	5	
+Group(9)= 	8	19	9	
+Group(39)= 	29	38	47	48	49	59	39	
+Group(67)= 	46	57	58	67	
+Group(69)= 	68	79	69	
+Group(90)= 	80	91	90	
+Group(96)= 	86	87	97	96	
+Group(99)= 	89	98	99	
+Group(2)= 	3	4	12	13	2	
+Group(14)= 	15	23	24	25	34	35	14	
+Group(30)= 	30	
+Group(77)= 	76	78	88	77	
+Group(94)= 	75	83	84	85	93	95	94	
+Group(21)= 	40	21	
+Group(44)= 	45	44	
+Group(60)= 	50	51	61	62	70	60	
+Group(66)= 	56	66	
+Group(26)= 	17	18	27	28	36	37	26	
+Group(33)= 	52	33	
+Group(64)= 	53	54	55	63	65	73	64	
+Group(22)= 	31	32	41	42	43	22	
+Group(71)= 	81	92	71	
+Group(74)= 	72	82	74	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+10	20	0	1	11	
+3	12	13	2	4	
+6	7	16	5	
+8	19	9	18	29	
+23	24	25	35	14	15	
+21	40	41	
+22	42	43	
+27	28	37	26	17	
+30	31	50	
+52	33	32	
+38	48	49	39	59	
+45	44	34	36	54	
+51	61	62	70	60	
+53	63	64	73	
+66	56	55	65	
+46	57	67	47	58	68	
+79	69	
+71	81	92	
+74	83	72	82	
+77	78	88	76	
+90	80	91	
+75	84	93	94	95	
+96	85	86	87	97	
+98	99	89	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 38
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 154
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	12	20	0	
+3	4	6	7	17	26	5	
+8	18	19	9	
+2	3	22	23	24	14	
+20	21	31	32	40	41	30	
+32	34	42	43	44	53	33	
+39	49	58	68	69	59	
+52	62	64	72	73	74	63	
+64	66	67	75	76	85	65	
+68	69	77	78	88	89	79	
+70	71	80	81	91	92	90	
+82	83	84	85	93	95	94	
+2	3	11	12	21	22	13	
+4	24	25	34	35	36	15	
+28	29	37	39	48	49	38	
+40	41	51	61	70	71	50	
+35	46	47	66	67	76	56	
+78	87	88	89	97	98	99	
+7	17	26	27	35	36	16	
+36	44	53	54	55	64	45	
+47	66	67	68	76	77	57	
+51	61	70	71	80	60	
+85	87	95	96	97	98	86	
+debatable node 26 belongs to cluster 16
+debatable node 32 belongs to cluster 33
+debatable node 41 belongs to cluster 50
+debatable node 34 belongs to cluster 33
+debatable node 77 belongs to cluster 57
+debatable node 78 belongs to cluster 79
+debatable node 80 belongs to cluster 60
+debatable node 61 belongs to cluster 60
+there are 23group(s)
+Group(0)= 	1	10	11	12	20	0	
+Group(5)= 	6	5	
+Group(9)= 	8	18	19	9	
+Group(14)= 	23	14	
+Group(30)= 	31	30	
+Group(33)= 	32	34	42	43	33	
+Group(59)= 	58	68	69	59	
+Group(63)= 	52	62	72	73	74	63	
+Group(65)= 	75	65	
+Group(79)= 	78	79	
+Group(90)= 	81	91	92	90	
+Group(94)= 	82	83	84	85	93	95	94	
+Group(13)= 	2	3	21	22	13	
+Group(15)= 	4	24	25	35	36	15	
+Group(38)= 	28	29	37	39	48	49	38	
+Group(50)= 	40	41	50	
+Group(56)= 	46	47	66	67	76	56	
+Group(99)= 	87	88	89	97	98	99	
+Group(16)= 	7	17	26	27	16	
+Group(45)= 	44	53	54	55	64	45	
+Group(57)= 	77	57	
+Group(60)= 	51	61	70	71	80	60	
+Group(86)= 	96	86	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+formed clusters after phase II is: 
+1	10	0	11	12	
+6	5	4	7	
+8	18	19	9	
+13	2	22	21	
+23	14	3	24	
+25	15	35	36	
+27	16	17	26	
+31	30	20	
+42	43	33	32	34	
+28	29	37	48	38	
+54	55	45	44	53	
+50	40	41	51	
+46	56	47	
+57	68	66	76	77	
+58	59	39	49	69	
+60	70	71	80	61	
+52	62	72	73	74	63	
+75	65	64	67	
+79	89	
+96	86	85	95	87	
+81	91	92	90	
+82	83	84	93	94	
+99	78	88	97	98	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 39
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 143
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	3	11	12	13	2	
+4	5	7	14	15	16	6	
+8	19	29	9	
+0	11	20	21	30	10	
+21	23	24	32	33	34	22	
+26	27	35	37	36	
+30	31	41	50	51	40	
+35	42	43	45	53	54	44	
+28	29	38	39	49	
+43	51	53	61	62	63	52	
+80	91	90	
+88	89	97	98	99	
+7	8	18	19	27	28	17	
+13	14	23	24	34	35	25	
+48	56	57	58	67	68	47	
+50	61	70	71	80	81	60	
+64	65	72	74	83	84	73	
+72	82	83	91	93	94	92	
+86	87	88	95	97	98	96	
+55	56	57	65	66	67	46	
+58	68	69	79	59	
+77	79	87	88	89	98	78	
+64	74	75	85	86	87	76	
+debatable node 29 belongs to cluster 49
+debatable node 30 belongs to cluster 40
+debatable node 50 belongs to cluster 40
+debatable node 61 belongs to cluster 52
+debatable node 91 belongs to cluster 92
+debatable node 89 belongs to cluster 78
+debatable node 65 belongs to cluster 46
+debatable node 74 belongs to cluster 73
+there are 23group(s)
+Group(2)= 	1	3	12	2	
+Group(6)= 	4	5	7	15	16	6	
+Group(9)= 	9	
+Group(10)= 	0	11	20	21	10	
+Group(22)= 	32	33	22	
+Group(36)= 	26	37	36	
+Group(40)= 	30	31	41	50	40	
+Group(44)= 	42	45	54	44	
+Group(49)= 	29	38	39	49	
+Group(52)= 	43	51	53	61	62	63	52	
+Group(90)= 	90	
+Group(99)= 	99	
+Group(17)= 	8	18	19	27	28	17	
+Group(25)= 	13	14	23	24	34	35	25	
+Group(47)= 	48	56	57	67	47	
+Group(60)= 	70	71	80	81	60	
+Group(73)= 	64	72	74	83	84	73	
+Group(92)= 	82	91	93	94	92	
+Group(96)= 	86	87	88	95	97	98	96	
+Group(46)= 	55	65	66	46	
+Group(59)= 	58	68	69	79	59	
+Group(78)= 	77	89	78	
+Group(76)= 	75	85	76	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+formed clusters after phase II is: 
+1	3	12	2	13	
+4	5	15	16	6	
+9	19	
+0	20	10	11	
+18	17	7	8	28	
+32	33	22	21	23	
+25	14	24	34	35	
+26	37	36	27	
+31	41	40	30	50	51	
+42	45	54	44	43	53	
+55	66	46	65	
+48	47	56	57	67	
+38	39	49	29	
+62	63	52	61	
+69	59	58	68	79	
+70	71	81	60	
+84	73	64	72	74	83	
+75	85	76	86	
+77	78	88	89	98	
+90	80	
+82	93	94	92	91	
+95	96	97	87	
+99	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 40
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 146
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	2	10	11	12	0	
+7	8	17	18	19	29	9	
+13	22	23	32	34	42	33	
+29	38	48	49	39	
+30	40	41	51	60	61	50	
+71	80	81	91	92	90	
+83	84	91	92	94	95	93	
+79	89	97	98	99	
+2	4	12	13	14	23	3	
+10	11	21	30	31	40	20	
+5	14	15	16	25	26	24	
+25	26	35	37	45	46	36	
+42	44	45	52	53	54	43	
+49	57	58	68	69	79	59	
+61	62	71	72	80	81	70	
+81	83	91	92	94	82	
+84	85	86	87	95	97	96	
+17	18	25	26	27	28	6	
+46	47	55	58	66	67	56	
+63	65	73	74	75	85	64	
+78	85	86	87	88	76	
+78	79	87	88	89	98	77	
+debatable node 98 belongs to cluster 77
+there are 22group(s)
+Group(0)= 	1	10	11	0	
+Group(9)= 	7	8	17	18	19	29	9	
+Group(33)= 	22	32	34	33	
+Group(39)= 	38	48	39	
+Group(50)= 	30	40	41	51	60	61	50	
+Group(90)= 	71	80	81	90	
+Group(93)= 	83	91	92	94	93	
+Group(99)= 	99	
+Group(3)= 	2	4	12	13	23	3	
+Group(20)= 	21	31	20	
+Group(24)= 	5	14	15	16	25	26	24	
+Group(36)= 	35	37	45	36	
+Group(43)= 	42	44	52	53	54	43	
+Group(59)= 	49	57	58	68	69	79	59	
+Group(70)= 	62	72	70	
+Group(82)= 	82	
+Group(96)= 	84	85	86	87	95	97	96	
+Group(6)= 	27	28	6	
+Group(56)= 	46	47	55	66	67	56	
+Group(64)= 	63	65	73	74	75	64	
+Group(76)= 	78	88	76	
+Group(77)= 	89	98	77	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =22
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =22
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =22
+formed clusters after phase II is: 
+1	0	2	11	12	
+4	3	13	23	14	
+27	28	6	17	18	
+7	8	19	9	
+21	31	20	10	30	
+5	15	16	24	26	
+22	32	34	33	42	
+35	37	36	25	45	
+38	48	39	29	49	
+44	52	53	54	43	
+41	51	60	50	40	
+47	55	66	67	56	46	
+57	68	69	59	58	
+63	65	73	74	75	64	
+62	72	70	61	71	
+76	85	78	88	
+77	89	98	
+82	81	91	94	
+90	80	
+93	92	83	84	95	
+96	97	86	87	
+99	79	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 41
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 148
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	2	10	11	0	
+5	7	15	16	17	6	
+8	18	19	9	
+47	48	54	55	65	66	56	
+48	49	58	68	69	59	
+64	71	72	73	74	83	63	
+55	64	65	66	74	84	75	
+77	78	85	86	87	97	76	
+69	78	88	89	98	79	
+80	81	91	90	
+82	83	84	92	94	93	
+88	89	97	98	99	
+11	12	13	21	22	
+13	14	25	34	35	36	24	
+19	28	29	37	38	49	39	
+52	53	54	55	64	43	
+54	55	64	65	66	45	
+48	58	67	68	69	77	57	
+85	86	94	96	95	
+2	4	5	12	13	14	3	
+28	36	37	38	46	47	26	
+20	21	30	40	41	50	31	
+28	29	36	37	38	46	27	
+52	60	61	62	70	71	51	
+debatable node 19 belongs to cluster 39
+debatable node 49 belongs to cluster 59
+debatable node 68 belongs to cluster 57
+debatable node 78 belongs to cluster 76
+debatable node 86 belongs to cluster 76
+debatable node 88 belongs to cluster 99
+debatable node 89 belongs to cluster 99
+debatable node 98 belongs to cluster 99
+there are 24group(s)
+Group(0)= 	1	2	10	11	0	
+Group(6)= 	7	15	16	17	6	
+Group(9)= 	8	18	9	
+Group(56)= 	56	
+Group(59)= 	48	49	59	
+Group(63)= 	72	73	74	63	
+Group(75)= 	65	66	75	
+Group(76)= 	78	86	87	76	
+Group(79)= 	79	
+Group(90)= 	80	81	91	90	
+Group(93)= 	82	83	84	92	94	93	
+Group(99)= 	88	89	97	98	99	
+Group(22)= 	22	
+Group(24)= 	25	34	35	36	24	
+Group(39)= 	19	28	29	37	38	39	
+Group(43)= 	53	54	55	64	43	
+Group(45)= 	45	
+Group(57)= 	58	67	68	69	77	57	
+Group(95)= 	85	96	95	
+Group(3)= 	4	5	12	13	14	3	
+Group(26)= 	47	26	
+Group(31)= 	20	21	30	40	41	50	31	
+Group(27)= 	46	27	
+Group(51)= 	52	60	61	62	70	71	51	
+There are 95 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+1	10	0	2	
+4	3	
+7	15	16	17	6	5	
+8	18	9	
+22	11	12	13	21	
+25	34	35	24	14	
+26	47	28	
+27	36	29	46	
+20	30	40	41	50	31	
+39	19	37	38	
+53	43	64	52	
+45	54	55	
+60	61	62	70	51	
+56	48	65	
+67	57	68	77	
+59	49	58	69	
+72	73	63	71	83	
+75	66	74	84	
+87	76	78	85	86	
+79	
+80	81	91	90	
+82	92	93	94	
+96	95	
+99	97	88	89	98	
+Now, after clarification, the number of all nodes involved is 95
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 42
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 162
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	20	0	
+1	3	4	11	12	13	2	
+5	6	8	16	17	18	7	
+8	18	19	9	
+27	28	29	38	48	49	39	
+30	31	41	50	51	40	
+34	35	43	45	54	55	44	
+80	81	91	90	
+84	85	86	93	95	96	94	
+79	88	89	98	99	
+15	16	24	26	34	35	25	
+38	45	46	47	48	55	36	
+54	55	63	64	65	74	53	
+48	49	58	68	69	59	
+60	62	70	71	72	81	61	
+81	83	84	91	92	93	82	
+86	87	88	95	96	98	97	
+6	13	15	16	23	24	14	
+21	22	23	31	32	41	33	
+27	28	45	46	47	48	37	
+31	41	43	52	54	63	42	
+55	57	65	66	67	76	56	
+67	69	77	79	88	89	78	
+74	76	77	84	85	86	75	
+83	84	85	92	93	73	
+debatable node 49 belongs to cluster 39
+debatable node 96 belongs to cluster 94
+debatable node 47 belongs to cluster 36
+debatable node 69 belongs to cluster 59
+there are 25group(s)
+Group(0)= 	1	10	11	20	0	
+Group(2)= 	3	4	12	2	
+Group(7)= 	5	6	8	17	18	7	
+Group(9)= 	19	9	
+Group(39)= 	27	28	29	38	49	39	
+Group(40)= 	30	50	51	40	
+Group(44)= 	45	55	44	
+Group(90)= 	80	91	90	
+Group(94)= 	84	85	86	93	95	96	94	
+Group(99)= 	99	
+Group(25)= 	15	16	24	26	34	35	25	
+Group(36)= 	46	47	36	
+Group(53)= 	64	53	
+Group(59)= 	48	58	68	69	59	
+Group(61)= 	60	62	70	71	72	61	
+Group(82)= 	81	82	
+Group(97)= 	87	88	98	97	
+Group(14)= 	13	23	14	
+Group(33)= 	21	22	32	33	
+Group(37)= 	37	
+Group(42)= 	31	41	43	52	54	63	42	
+Group(56)= 	57	65	66	67	56	
+Group(78)= 	79	89	78	
+Group(75)= 	74	76	77	75	
+Group(73)= 	83	92	73	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+formed clusters after phase II is: 
+10	20	0	1	11	
+3	4	12	2	
+5	17	7	18	
+19	9	8	
+14	13	6	16	23	
+26	25	35	15	24	
+21	22	32	33	31	
+36	48	46	47	
+37	27	28	
+29	39	38	49	
+30	50	51	40	41	
+52	42	43	54	
+44	34	45	55	
+64	53	63	65	
+57	66	56	
+58	68	59	69	
+60	62	70	71	72	61	
+73	85	83	92	
+75	74	76	77	
+78	79	67	
+82	81	84	93	
+80	90	91	
+94	86	95	96	
+87	97	88	
+99	89	98	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 43
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 160
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+0	1	3	11	12	13	2	
+7	8	17	18	19	9	
+0	1	11	20	10	
+30	31	32	33	41	42	21	
+18	19	28	38	39	29	
+60	61	63	71	72	73	62	
+78	79	87	88	98	99	89	
+81	82	90	91	93	92	
+82	83	84	93	95	94	
+85	86	87	95	97	96	
+6	7	16	5	
+14	23	24	34	25	
+30	31	41	50	51	60	40	
+60	61	71	80	81	90	70	
+3	12	13	14	23	24	4	
+43	53	54	55	64	65	44	
+31	32	33	41	42	43	22	
+37	46	47	55	56	65	45	
+54	61	63	64	73	52	
+73	75	76	83	84	85	74	
+28	36	37	46	47	26	
+64	65	67	75	76	77	66	
+18	19	28	38	39	48	27	
+59	67	68	69	77	57	
+39	48	58	59	68	69	49	
+debatable node 11 belongs to cluster 2
+debatable node 87 belongs to cluster 89
+debatable node 81 belongs to cluster 92
+debatable node 82 belongs to cluster 94
+debatable node 93 belongs to cluster 94
+debatable node 84 belongs to cluster 74
+debatable node 85 belongs to cluster 74
+debatable node 23 belongs to cluster 25
+debatable node 76 belongs to cluster 66
+debatable node 77 belongs to cluster 57
+there are 25group(s)
+Group(2)= 	3	11	12	13	2	
+Group(9)= 	7	8	17	9	
+Group(10)= 	0	1	20	10	
+Group(21)= 	30	21	
+Group(29)= 	18	19	28	38	39	29	
+Group(62)= 	63	72	73	62	
+Group(89)= 	78	79	87	88	98	99	89	
+Group(92)= 	81	91	92	
+Group(94)= 	82	83	93	94	
+Group(96)= 	86	95	97	96	
+Group(5)= 	6	16	5	
+Group(25)= 	14	23	24	34	25	
+Group(40)= 	50	51	40	
+Group(70)= 	60	61	71	80	90	70	
+Group(4)= 	4	
+Group(44)= 	53	54	55	44	
+Group(22)= 	31	32	33	41	42	43	22	
+Group(45)= 	56	45	
+Group(52)= 	52	
+Group(74)= 	84	85	74	
+Group(26)= 	36	37	46	47	26	
+Group(66)= 	64	65	75	76	66	
+Group(27)= 	48	27	
+Group(57)= 	59	67	68	69	77	57	
+Group(49)= 	58	49	
+There are 98 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+formed clusters after phase II is: 
+2	11	13	
+4	3	12	14	
+6	16	5	
+8	17	9	7	
+20	10	0	1	
+21	30	31	32	
+22	33	42	43	
+34	25	23	24	
+36	26	37	46	47	
+27	18	19	48	
+29	28	38	
+50	51	40	41	60	
+53	44	54	
+56	45	55	65	
+58	49	39	59	
+52	61	63	64	
+57	67	77	68	69	
+72	62	71	73	
+66	75	76	
+80	70	90	
+74	84	85	
+78	79	88	98	99	89	87	
+91	92	81	
+94	82	93	83	
+86	97	96	95	
+Now, after clarification, the number of all nodes involved is 98
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 44
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 126
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	20	0	
+5	7	15	16	17	6	
+8	18	19	9	
+30	31	41	42	50	51	40	
+48	57	58	59	68	69	49	
+69	78	79	88	99	89	
+80	81	90	92	91	
+87	88	97	99	98	
+3	4	12	14	15	13	
+15	16	26	36	37	46	25	
+21	31	32	
+19	28	29	38	48	39	
+62	70	71	72	80	81	60	
+73	82	83	84	85	94	74	
+66	76	77	85	86	87	75	
+1	3	4	12	14	2	
+46	47	48	57	66	67	56	
+62	71	72	73	82	83	63	
+85	86	93	94	96	97	95	
+29	37	38	47	48	27	
+61	62	71	72	52	
+debatable node 16 belongs to cluster 25
+debatable node 87 belongs to cluster 75
+debatable node 14 belongs to cluster 13
+debatable node 86 belongs to cluster 75
+there are 21group(s)
+Group(0)= 	10	11	20	0	
+Group(6)= 	5	7	17	6	
+Group(9)= 	8	18	9	
+Group(40)= 	30	31	41	42	50	51	40	
+Group(49)= 	58	59	68	49	
+Group(89)= 	69	78	79	89	
+Group(91)= 	90	92	91	
+Group(98)= 	88	97	99	98	
+Group(13)= 	14	13	
+Group(25)= 	15	16	26	36	46	25	
+Group(32)= 	21	32	
+Group(39)= 	19	28	29	38	39	
+Group(60)= 	70	80	81	60	
+Group(74)= 	73	82	83	84	74	
+Group(75)= 	66	76	77	85	86	87	75	
+Group(2)= 	1	3	4	12	2	
+Group(56)= 	57	67	56	
+Group(63)= 	63	
+Group(95)= 	93	94	96	95	
+Group(27)= 	37	47	48	27	
+Group(52)= 	61	62	71	72	52	
+There are 86 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =21
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =21
+formed clusters after phase II is: 
+10	11	20	0	
+2	1	12	
+5	7	17	6	
+8	18	9	19	
+13	15	3	4	14	
+26	36	25	16	
+27	48	37	47	
+21	32	31	
+28	39	29	38	
+30	41	42	50	51	40	
+58	59	68	49	
+61	52	72	
+67	56	57	46	66	
+70	60	80	81	
+63	62	71	73	
+84	74	82	83	
+76	77	75	87	86	
+78	79	89	69	
+90	92	91	
+93	96	95	85	94	
+98	88	99	97	
+Now, after clarification, the number of all nodes involved is 86
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 45
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 162
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+3	5	13	14	15	4	
+5	6	8	16	17	18	7	
+8	18	19	29	9	
+23	32	33	34	41	42	43	
+58	59	68	78	79	89	69	
+80	81	82	90	91	93	92	
+73	83	84	85	93	95	94	
+78	79	89	98	99	
+31	41	42	50	51	60	40	
+45	53	54	55	63	64	44	
+28	38	39	48	58	59	49	
+42	50	51	61	63	72	52	
+85	86	87	95	97	98	96	
+5	13	14	23	34	35	24	
+10	11	20	21	22	31	30	
+61	63	71	72	73	82	62	
+60	61	71	80	81	90	70	
+73	75	76	83	84	85	74	
+1	2	10	11	20	0	
+1	2	3	11	13	21	12	
+15	16	26	27	36	37	25	
+46	56	66	67	75	76	65	
+47	48	58	67	68	77	57	
+78	79	87	89	97	98	88	
+debatable node 14 belongs to cluster 24
+debatable node 15 belongs to cluster 25
+debatable node 16 belongs to cluster 25
+debatable node 18 belongs to cluster 7
+debatable node 68 belongs to cluster 57
+debatable node 60 belongs to cluster 70
+debatable node 72 belongs to cluster 62
+debatable node 67 belongs to cluster 65
+there are 24group(s)
+Group(4)= 	4	
+Group(7)= 	6	8	17	18	7	
+Group(9)= 	19	29	9	
+Group(43)= 	32	33	43	
+Group(69)= 	69	
+Group(92)= 	91	92	
+Group(94)= 	83	84	85	93	94	
+Group(99)= 	99	
+Group(40)= 	31	41	40	
+Group(44)= 	45	53	54	55	64	44	
+Group(49)= 	28	38	39	48	58	59	49	
+Group(52)= 	42	50	51	52	
+Group(96)= 	86	87	95	97	98	96	
+Group(24)= 	5	13	14	23	34	35	24	
+Group(30)= 	22	30	
+Group(62)= 	63	72	73	82	62	
+Group(70)= 	60	61	71	80	81	90	70	
+Group(74)= 	75	76	74	
+Group(0)= 	1	2	10	11	20	0	
+Group(12)= 	3	21	12	
+Group(25)= 	15	16	26	27	36	37	25	
+Group(65)= 	46	56	66	67	65	
+Group(57)= 	47	68	77	57	
+Group(88)= 	78	79	89	88	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+0	20	1	2	
+4	
+6	17	7	18	
+19	29	9	8	
+12	3	13	
+35	24	5	14	34	
+26	27	36	37	25	15	16	
+22	30	10	11	21	
+40	41	31	
+32	33	43	23	
+45	53	54	55	64	44	
+28	38	39	49	59	48	
+52	42	50	51	
+47	77	57	58	68	
+62	82	63	72	
+46	56	66	65	67	
+69	78	79	
+70	90	60	61	71	
+74	73	75	76	
+88	89	
+91	92	80	81	
+94	93	83	84	85	
+86	96	95	87	97	
+99	98	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 46
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 160
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+0	2	10	11	1	
+4	7	15	16	24	25	5	
+15	16	17	25	26	27	6	
+18	19	28	38	39	49	29	
+23	34	35	44	45	54	33	
+35	37	38	46	47	48	36	
+51	52	60	61	71	72	50	
+64	66	67	74	75	76	65	
+59	68	69	77	78	89	79	
+81	82	83	90	91	93	92	
+88	89	98	99	
+7	9	17	18	19	28	8	
+15	16	23	24	25	35	14	
+30	31	32	41	42	51	40	
+44	52	53	54	61	64	43	
+58	64	66	67	76	56	
+60	70	71	81	90	91	80	
+82	83	85	93	94	95	84	
+2	4	12	13	22	23	3	
+0	10	11	12	21	22	20	
+64	66	67	76	55	
+47	48	49	58	59	69	57	
+63	71	72	73	81	82	62	
+77	87	88	95	96	97	86	
+debatable node 4 belongs to cluster 5
+debatable node 28 belongs to cluster 8
+debatable node 49 belongs to cluster 57
+debatable node 69 belongs to cluster 79
+debatable node 95 belongs to cluster 84
+there are 24group(s)
+Group(1)= 	1	
+Group(5)= 	4	5	
+Group(6)= 	26	27	6	
+Group(29)= 	18	19	38	39	29	
+Group(33)= 	23	34	35	45	33	
+Group(36)= 	37	46	47	48	36	
+Group(50)= 	51	50	
+Group(65)= 	74	75	65	
+Group(79)= 	59	68	69	77	78	89	79	
+Group(92)= 	83	93	92	
+Group(99)= 	98	99	
+Group(8)= 	7	9	17	28	8	
+Group(14)= 	15	16	24	25	14	
+Group(40)= 	30	31	32	41	42	40	
+Group(43)= 	44	52	53	54	61	43	
+Group(56)= 	58	56	
+Group(80)= 	60	70	90	91	80	
+Group(84)= 	85	94	95	84	
+Group(3)= 	2	13	3	
+Group(20)= 	0	10	11	12	21	22	20	
+Group(55)= 	64	66	67	76	55	
+Group(57)= 	49	57	
+Group(62)= 	63	71	72	73	81	82	62	
+Group(86)= 	87	88	96	97	86	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =24
+formed clusters after phase II is: 
+1	0	10	11	
+13	3	2	23	
+5	4	
+26	27	6	15	
+9	8	7	17	28	
+14	16	24	25	35	
+21	20	12	22	
+39	29	18	19	38	
+34	45	33	44	54	
+37	46	36	48	
+30	31	32	41	42	40	
+53	43	52	61	
+50	51	60	71	
+55	66	67	76	
+56	64	58	
+57	49	47	59	
+63	73	62	72	82	
+74	75	65	
+68	78	79	69	77	
+70	80	90	91	
+85	94	84	95	
+87	96	97	86	
+92	81	83	93	
+98	99	89	88	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 47
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 159
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	11	0	
+1	2	4	11	12	13	3	
+5	7	8	16	17	18	6	
+8	18	19	9	
+11	12	20	22	23	30	21	
+28	29	38	49	39	
+54	56	57	65	66	75	55	
+40	50	51	61	70	80	60	
+59	68	78	79	89	69	
+70	80	81	91	90	
+83	84	85	92	93	94	
+76	84	85	86	96	97	95	
+56	57	58	65	66	46	
+76	83	84	85	86	93	74	
+87	89	96	97	98	99	88	
+25	26	35	37	45	47	36	
+56	57	58	59	67	68	48	
+54	63	64	65	72	73	53	
+16	17	18	25	26	38	27	
+23	32	33	34	44	45	43	
+51	52	61	71	72	82	62	
+68	76	78	86	87	77	
+4	5	15	16	25	26	14	
+31	32	40	41	52	42	
+12	13	15	22	23	24	
+debatable node 45 belongs to cluster 43
+there are 25group(s)
+Group(0)= 	10	0	
+Group(3)= 	1	2	4	11	12	13	3	
+Group(6)= 	7	6	
+Group(9)= 	8	19	9	
+Group(21)= 	20	30	21	
+Group(39)= 	28	29	38	49	39	
+Group(55)= 	54	75	55	
+Group(60)= 	50	70	80	60	
+Group(69)= 	59	68	78	79	89	69	
+Group(90)= 	81	91	90	
+Group(94)= 	83	84	85	92	93	94	
+Group(95)= 	76	86	96	97	95	
+Group(46)= 	56	57	58	65	66	46	
+Group(74)= 	74	
+Group(88)= 	87	98	99	88	
+Group(36)= 	35	37	47	36	
+Group(48)= 	67	48	
+Group(53)= 	63	64	73	53	
+Group(27)= 	16	17	18	25	26	27	
+Group(43)= 	23	33	34	44	45	43	
+Group(62)= 	51	61	71	72	82	62	
+Group(77)= 	77	
+Group(14)= 	5	14	
+Group(42)= 	31	32	40	41	52	42	
+Group(24)= 	15	22	24	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =25
+formed clusters after phase II is: 
+10	0	
+2	3	1	11	
+7	6	8	17	
+19	9	
+14	4	5	16	
+20	30	21	23	
+24	12	13	22	15	
+27	18	25	26	
+35	37	47	36	
+28	29	49	39	38	
+31	41	42	32	
+33	34	44	43	45	
+46	65	66	58	
+67	48	57	59	
+63	64	73	53	72	
+75	55	54	56	
+50	60	40	51	
+71	82	62	61	52	
+79	69	89	
+74	83	84	85	
+77	68	78	76	
+98	99	88	87	
+81	91	90	70	80	
+92	94	93	
+95	86	96	97	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 48
+
+void computeDistance() is OK
+
+xxxxx
+xxxxx
+xxxxx
+xxxxx
+the number of all nodes involved is 148
+the sum of ai on all nodes after phaseI is 10000000
+formed clusters after phase I is: 
+1	10	0	
+11	12	13	21	22	23	2	
+3	5	13	14	15	23	4	
+7	8	17	18	19	28	9	
+28	29	38	48	49	59	39	
+30	41	50	51	60	40	
+42	43	45	53	54	55	44	
+58	59	68	78	79	69	
+80	81	82	91	90	
+84	85	93	95	94	
+79	87	88	89	98	99	
+5	7	8	15	16	17	6	
+10	11	21	22	30	31	20	
+23	25	33	34	35	24	
+64	65	72	73	74	83	63	
+72	81	82	83	91	93	92	
+86	87	88	89	96	98	97	
+27	36	37	38	45	47	26	
+30	31	41	42	52	53	32	
+54	55	57	65	66	67	56	
+61	70	71	72	73	82	62	
+76	77	84	85	86	95	75	
+55	57	65	66	67	46	
+debatable node 22 belongs to cluster 2
+debatable node 28 belongs to cluster 39
+debatable node 41 belongs to cluster 32
+debatable node 85 belongs to cluster 75
+debatable node 83 belongs to cluster 63
+there are 23group(s)
+Group(0)= 	1	10	0	
+Group(2)= 	12	22	2	
+Group(4)= 	3	13	14	4	
+Group(9)= 	7	8	17	18	19	9	
+Group(39)= 	28	29	38	48	49	39	
+Group(40)= 	50	51	60	40	
+Group(44)= 	42	43	53	54	44	
+Group(69)= 	58	59	68	78	69	
+Group(90)= 	80	81	91	90	
+Group(94)= 	84	93	95	94	
+Group(99)= 	79	87	88	89	98	99	
+Group(6)= 	5	15	16	6	
+Group(20)= 	11	21	30	31	20	
+Group(24)= 	23	25	33	34	35	24	
+Group(63)= 	64	74	83	63	
+Group(92)= 	92	
+Group(97)= 	86	96	97	
+Group(26)= 	27	36	37	45	47	26	
+Group(32)= 	41	52	32	
+Group(56)= 	56	
+Group(62)= 	61	70	71	72	73	82	62	
+Group(75)= 	76	77	85	75	
+Group(46)= 	55	57	65	66	67	46	
+There are 100 nodes after initial clarification!
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+Pool_Groups_trueindex.size() =500
+Pool_Groups.size() =23
+formed clusters after phase II is: 
+1	0	10	
+12	2	11	22	
+3	14	4	13	23	
+16	6	5	15	7	17	
+18	19	9	8	
+20	21	30	31	
+25	33	34	35	24	
+27	36	37	47	26	
+52	32	41	42	
+29	48	49	39	28	38	
+50	51	60	40	
+43	44	45	53	
+46	57	66	67	
+56	54	55	65	
+61	70	71	62	73	
+64	74	63	72	83	
+58	68	78	69	59	
+76	77	75	85	
+80	90	91	
+92	81	82	
+94	84	93	95	
+96	97	87	86	
+99	79	88	89	98	
+Now, after clarification, the number of all nodes involved is 100
+-----------------1---------------
+--------------2-------------------
+--------------3-------------------
+--------------3-------------------
+--------------3-------------------
+seed is 49
+
+ final output of ROSS is:
+average_CCC(size>1) = 3.02653
+average_CCC(size>=1) = 3.08603
+average_OCC = 0
+number_clusters = 24.04
+CI of number_clusters = 0.38408
+average_size = 4.10881
+average number of channels per node = 3.04
+CI of average cluster size(size>1) = 0.313296
+CI of average cluster size(size>=1) = 0.323855
+CI of average_CCC (size>1)0.309721
+CI of average_CCC (size>=1)0.323855
+CI of average_OCC = 0
+Average of products of size and number of ICC in the network is 286.66
+CI of products of size and number of ICC in the network is 12.3711
+average number of neighbors over 50 runs =9.4932
+average percentage of overlapping nodes is = 0.4394
+CI of percentage of overlapping nodes is 0
+Average Number of claiming clusters is = 1.13219
+CI of average number of claiming clusters is 0.0787464
+Number of control messages in greedy phase is 72.5
+
+---------only data bellow-----:
+3.02653
+3.08603
+0
+24.04
+0.38408
+4.10881
+3.04
+0.313296
+0.323855
+0.309721
+0.323855
+0
+286.66
+12.3711
+9.4932
+0.4394
+0
+2.26438
+0.0787464
+72.5
+//output the number of nodes grouped into clusters with certain size
+0
+0.42
+2.48
+12
+40.48
+32.9
+9.12
+1.12
+
+

@@ -212,6 +212,9 @@ Channel_allnode Clusters::channelRandomInit(unsigned int ChDim, double RadiusPR,
 	}
 
 
+
+
+
 //caculate ai_vector and bi_vector after initialing available channels on nodes!
 //ai_vector is a vector which stores the values of ai of each node.
 
@@ -1851,10 +1854,12 @@ while(flag_update)
     //std::cout<<"ROSS finished!"<<std::endl;
 }//phaseII end
 
-
+#ifdef _DOUBLE_CHECK_UNACCURATE_SPECTRUM_SENSING
 /*
  * When the false negative ratio is 10%, it is 10% that the channel which is deemed as available (primary user is absent)
  * is actually not available.
+ *
+ * This function changes the Pool_Groups and v_all.
  */
 void Clusters::cluster_with_accurate_spectrum(Cluster cluster_checked, unsigned int index, float false_negative, unsigned int ChDim){
     unsigned int flag =0;
@@ -1881,6 +1886,7 @@ void Clusters::cluster_with_accurate_spectrum(Cluster cluster_checked, unsigned 
 	    Pool_Groups.erase(Pool_Groups.begin()+index);
     }
 }
+#endif
 
 void Clusters::survial_ratio_from_centralized(unsigned int seed) {
 	    /*
