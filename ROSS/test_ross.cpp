@@ -94,7 +94,7 @@ int main()
 	#endif
 
 	#ifdef CLUSTER_SIZE_CONTROL
-			clusters.ClusteringPhaseI(20);
+			clusters.ClusteringPhaseI(6);
 	#endif
 
 

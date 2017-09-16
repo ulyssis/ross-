@@ -228,6 +228,19 @@ void Clusters::channelRandomInit(unsigned int ChDim, double RadiusPR, double Rad
 		v_all_copy=v_all;
 		}
 		RadiusOfCR = RadiusCR;
+
+
+#ifdef COMPARE_SPECTRUM_WITH_GROUND_TRUTH_METHOD2
+    for(unsigned int i=0; i<NumOfNodes; i++ ){
+	for(unsigned int k=0; k<ChDim; k++ ){
+	    if(!v_all[i][k]){
+		float random=(double)rand()/(RAND_MAX);
+		v_all[i][k] = (random > FALSE_NEGATIVE_RATE_METHOD2) ? 0:1;
+	    }
+	}
+    }
+#endif
+
 	}
 
 //------------------------------------
@@ -253,7 +266,30 @@ inline unsigned int Clusters::CaculateNumCCC(Cluster group)
 	  return NumCCC;
     }
 
+inline unsigned int Clusters::CaculateNumCCC_v_all_copy(Cluster group)
+    {
+    unsigned int NumCCC;
+    if(group.size()>0)
+	{
+	Channel_onenode ChannelOnHead=v_all_copy[group.back()];//对于需要使用此函数的group，把head node加在最后！
+	for (unsigned int i = 0; i < group.size()-1; i++)
+	{
 
+	Channel_onenode ChannelOnNeighbor=v_all_copy[group[i]];
+	for (unsigned int j=0;j<10;j++)
+	  {
+	  ChannelOnHead[j]=ChannelOnHead[j]*ChannelOnNeighbor[j];
+	  }
+
+	}
+	NumCCC=std::accumulate(ChannelOnHead.begin(),ChannelOnHead.end(),0);
+	}
+    else
+	{
+	NumCCC=0;
+	}
+    return NumCCC;
+    }
 
 
 //-------------------------------------------------------------------------------------
@@ -983,13 +1019,36 @@ void Clusters::ClusteringPhaseIII()
 
 
 
+#ifdef COMPARE_SPECTRUM_WITH_GROUND_TRUTH_METHOD2
+    for(unsigned int i=0; i< Pool_Groups.size(); i++) {
+
+	if(Pool_Groups[i].size()>1)
+	    {
+	    /*
+	     * check whether the non-singleton cluster remains
+	     */
+	    unsigned ccc= CaculateNumCCC(Pool_Groups[i]);
+	    unsigned ccc_copy= CaculateNumCCC_v_all_copy(Pool_Groups[i]);
+	    if(!ccc_copy && ccc){
+		for(unsigned int k =0; k <Pool_Groups[i].size(); k++){
+		    Cluster singleton_cluster;
+		    singleton_cluster.push_back(Pool_Groups[i][k]);
+		    Pool_Groups.push_back(singleton_cluster);
+		}
+		    Pool_Groups.erase(Pool_Groups.begin()+i);
+	    }
+
+	    }
+	}
+#endif
 
 
 
 
 
-
-
+#ifdef COMPARE_SPECTRUM_WITH_GROUND_TRUTH_METHOD2
+v_all = v_all_copy;
+#endif
 
 
 

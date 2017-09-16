@@ -20,7 +20,7 @@
 /*
  * prune cluster size in phaseI
  */
-//#define CLUSTER_SIZE_CONTROL
+#define CLUSTER_SIZE_CONTROL
 
 
 /*
